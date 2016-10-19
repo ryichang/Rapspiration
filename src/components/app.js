@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import RapDetail from './RapSection';
+import RapDetail from './RapDetail';
 import Header from './Header';
+
 
 export default class App extends Component {
   render() {
@@ -8,7 +9,6 @@ export default class App extends Component {
       <div>
         <Header />
         <RapDetail />
-        React simple starter
       </div>
     );
   }
