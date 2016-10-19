@@ -3,9 +3,11 @@ import { connect } from 'react-redux';
 
 class RapLyric extends Component {
 	render() {
+    const lyric = this.props.lyric
+		console.log('lyric is ', lyric)
 		return (
-      <div>
-        <h1>Lyric la la la </h1>
+      <div className="col-md-12 rapLyric">
+        <h1>{lyric}</h1>
       </div>
     );
 	}

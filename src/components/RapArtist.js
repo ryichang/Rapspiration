@@ -3,9 +3,11 @@ import { connect } from 'react-redux';
 
 class RapArtist extends Component {
 	render() {
+    const artist = this.props.artist
+		console.log('artist is ', artist)
 		return (
-      <div>
-        <h1>ARTIST NAME</h1>
+      <div className="col-md-12 rapArtist">
+        <h1>{artist}</h1>
       </div>
     );
 	}

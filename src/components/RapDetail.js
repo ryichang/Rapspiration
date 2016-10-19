@@ -24,15 +24,14 @@ class RapDetail extends Component {
     const { currentRap } = this.props.raps;
 
     console.log('raps', this.props.raps.currentRap)
+    console.log('rap', currentRap)
 		return (
-      <div className="col-md-12">
-        <h1>RAP DETAIL CONTAINER</h1>
-        <RapImage />
-        <button onClick={this.onClick}>
-          CLICKBAIT
-        </button>
-        <RapArtist />
-        <RapLyric />
+      <div className="col-md-12 rapCard">
+        <div onClick={this.onClick}>
+        <RapImage image={currentRap.image} />
+        </div>
+        <RapArtist artist={currentRap.artist}/>
+        <RapLyric lyric={currentRap.lyric}/>
       </div>
     );
 	}
