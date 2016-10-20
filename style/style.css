@@ -38,8 +38,8 @@ body {
 
 .rapArtist {
   padding-top: 10px;
-    font-family: 'Rubik', sans-serif;
-  /*font-family: 'Covered By Your Grace', cursive;*/
+    /*font-family: 'Rubik', sans-serif;*/
+  font-family: 'Covered By Your Grace', cursive;
 }
 
 .rapLyric {

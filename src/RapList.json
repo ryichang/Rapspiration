@@ -115,7 +115,7 @@ module.exports =
   { "id": 14,
     "artist": "Notorious B.I.G.",
     "image": "http://placehold.it/500x500",
-    "lyric": "Sky is the limit and ou that you can have what you want, be what you want",
+    "lyric": "Sky is the limit and you know that you can have what you want, be what you want",
     "songName": "Sky Is The Limit",
     "album": "Life After Death",
     "genius": "http://genius.com/The-notorious-big-skys-the-limit-lyrics"
