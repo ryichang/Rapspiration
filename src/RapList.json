@@ -26,7 +26,7 @@ module.exports =
   },
   { "id": 3,
     "artist": "Childish Gambino",
-    "image": "http://placehold.it/500x500",
+    "image": "../img/ChildishGambinoPrint.png",
     "lyric": "Being happy is the goal, but greatness is my mission",
     "songName": "I'm Alright",
     "album": "Culdesac",

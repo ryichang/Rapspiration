@@ -46,6 +46,10 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
+.img-responsive {
+  max-height: 500px;
+}
+
 h1 {
   font-size: 30vw;
   line-height: .8;

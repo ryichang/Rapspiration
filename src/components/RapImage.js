@@ -6,7 +6,7 @@ class RapImage extends Component {
 		const image = this.props.image
 		console.log('image is ', image)
 		return (
-      <div className="col-md-12">
+      <div className="col-md-12 rapImage">
         <img src={image} className="img-responsive"/>
       </div>
     );
