@@ -44,21 +44,27 @@ img.scale { width: 100%; }*/
 /* Render Animation */
 
 .example-enter {
-  opacity: 0.01;
+  /*opacity: 0.01;*/
 }
 
 .example-enter.example-enter-active {
-  opacity: 1;
-  transition: opacity 500ms ease-in;
+       -webkit-animation: bounceIn 0.4s;
+            animation: bounceIn 0.4s;
+
+  transition: bounceIn 500ms ease-in;
 }
 
 .example-leave {
-  opacity: 1;
+  opacity: 0.01;
 }
 
 .example-leave.example-leave-active {
+  /*-webkit-transform: scale(1);
+transform: scale(1);*/
+-webkit-animation: fadeOut 0.4s;
+     animation: fadeOut 0.4s;
   opacity: 0.01;
-  transition: opacity 300ms ease-in;
+  transition: fadeOut 300ms ease-in;
 }
 
 .rapContainer {
@@ -71,8 +77,9 @@ img.scale { width: 100%; }*/
 
 .rapArtist {
   padding-top: 10px;
+  font-family: 'TinyHand'
     /*font-family: 'Rubik', sans-serif;*/
-  font-family: 'Covered By Your Grace', cursive;
+  /*font-family: 'Covered By Your Grace', cursive;*/
 }
 
 .rapLyric {
