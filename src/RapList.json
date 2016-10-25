@@ -34,7 +34,7 @@ module.exports =
   },
   { "id": 4,
     "artist": "Kanye West",
-    "image": "http://placehold.it/500x500",
+    "image": "../img/KanyePrint.png",
     "lyric": "Reach for the stars so if you fall you land in the cloud",
     "songName": "Homecoming",
     "album": "Graduation",
