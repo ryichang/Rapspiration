@@ -4,6 +4,7 @@ import { bindActionCreators } from 'redux';
 import RapImage from './RapImage';
 import RapArtist from './RapArtist';
 import RapLyric from './RapLyric';
+// import RapCard from './RapCard';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import { fetchNewRap } from '../actions/index';
 
@@ -29,16 +30,28 @@ class RapDetail extends Component {
 
 		return (
       <div className="col-md-12 rapContainer">
-        <div onClick={this.onClick}>
-        <RapImage image={currentRap.image} />
+        <div className="col-md-2">
         </div>
-        <RapArtist artist={currentRap.artist} key={currentRap.artist}/>
+        <div className="col-md-5 polaroid">
+          <div onClick={this.onClick}>
+            <div className="polaroidPhoto">
+            <RapImage image={currentRap.image} />
+            </div>
+            </div>
+            <RapArtist artist={currentRap.artist} key={currentRap.artist}/>
+        </div>
+        <div className="col-md-4">
         <ReactCSSTransitionGroup
             transitionName="example"
             transitionEnterTimeout={500}
             transitionLeaveTimeout={300}>
+
         <RapLyric lyric={currentRap.lyric} key={currentRap.id}/>
         </ReactCSSTransitionGroup>
+        </div>
+        {/* <div className="col-md-1">
+
+        </div> */}
       </div>
     );
 	}
