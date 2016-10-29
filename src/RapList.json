@@ -143,5 +143,13 @@ module.exports =
     "songname": "B.o.B",
     "album": "Stankonia",
     "genius": "http://genius.com/Outkast-bob-lyrics"
+  },
+  { "id": 18,
+    "artist": "Pharrell",
+    "image": "../img/PharrellPrint.png",
+    "lyric": "You can do it too young love / Just watch what you do young love / And watch whose in your crew young love",
+    "songname": "You Can Do It Too",
+    "album": "In My Mind",
+    "genius": "http://genius.com/Pharrell-williams-you-can-do-it-too-lyrics"
   }
 ]

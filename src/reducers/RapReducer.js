@@ -1,7 +1,7 @@
 import data from '../RapList.json';
 
 const INITAL_STATE = {
-  currentRap: data[Math.floor(Math.random() * data.length)]
+  currentRap: data[Math.floor(Math.random() * data.length)],
 }
 
 export default function (state = INITAL_STATE, action) {

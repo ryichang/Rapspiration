@@ -9,3 +9,10 @@ export function fetchNewRap() {
     dispatch({ type: 'FETCH_NEW_RAP', newRap: newRap })
   }
 }
+
+export function showInitialLoading(shouldShowLoading) {
+  return dispatch => {
+
+    dispatch({ type: 'SHOW_INITIAL_LOADING', showLoading: shouldShowLoading})
+  }
+}

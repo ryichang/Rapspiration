@@ -10,7 +10,7 @@ class Header extends Component {
             <img src={"../img/logo.png"} className="logo"></img>
             {/* </a> */}
         </div>
-        <div id="top-spacer"></div>
+        {/* <div id="top-spacer"></div> */}
       </div>
     );
   }
