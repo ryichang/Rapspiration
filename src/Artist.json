@@ -1,0 +1,22 @@
+module.exports =
+[
+  { "id": 0,
+    "artist": "Notorious B.I.G.",
+    "image": "../img/BiggiePrint.png"
+  },
+  {
+    "id": 1,
+    "artist": "Kanye West",
+    "image": "../img/KanyePrint.png"
+  },
+  {
+    "id": 2,
+    "artist": "Pharrell",
+    "image": "../img/PharrellPrint.png"
+  },
+  {
+    "id": 3,
+    "artist": "Kid Cudi",
+    "image": "../img/KidCudiPrint.png"
+  }
+]

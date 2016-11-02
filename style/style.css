@@ -123,9 +123,10 @@ transform: scale(1);*/
 
 .rapImage:hover {
   animation: float 3s infinite;
-     /*-webkit-animation: bounce 3s infinite;
-     -moz-animation: bounce 3s infinite;
-     -o-animation: bounce 3s infinite;*/
+  image-rendering: auto;
+  -webkit-animation: float 3s infinite;
+  -moz-animation: float 3s infinite;
+  -o-animation: float 3s infinite;
 }
 
 @keyframes float {
@@ -173,6 +174,8 @@ transform: scale(1);*/
   cursor: text;
   /*font-family: 'Open Sans', sans-serif !important;*/
   font-family: "museo-sans-rounded" !important;
+  /*font-family: Helvetica Neue,Helvetica,sans-serif;*/
+
   display: block;
   position: relative;
   /*top: 50%;*/
