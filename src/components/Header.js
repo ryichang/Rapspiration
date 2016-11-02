@@ -4,11 +4,15 @@ import { Nav, Navbar, NavItem, NavDropdown, MenuItem, Tooltip, OverlayTrigger} f
 class Header extends Component {
   render() {
     return (
-      <div >
+      <div>
         <div className="sidebar">
-            {/* <a href="/" target="_blank"> */}
+            {/* <a href="/" target="_blank">
             <img src={"../img/logo.png"} className="logo"></img>
-            {/* </a> */}
+            </a> */}
+            <div className="sidebarBottom">
+              <i className="fa fa-twitter twitter" aria-hidden="true"></i>
+              <i className="fa fa-instagram" aria-hidden="true"></i>
+            </div>
         </div>
         {/* <div id="top-spacer"></div> */}
       </div>

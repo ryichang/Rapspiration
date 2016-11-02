@@ -151,5 +151,14 @@ module.exports =
     "songname": "You Can Do It Too",
     "album": "In My Mind",
     "genius": "http://genius.com/Pharrell-williams-you-can-do-it-too-lyrics"
+  },
+  { "id": 19,
+    "artist": "Kid Cudi",
+    "image": "../img/KidCudiPrint.png",
+    "lyric": "I'mma do just what I want / Looking ahead, no turning back / If I fall, if I die; know I lived it to the fullest / If I fall, if I die; know I lived and missed some bullets",
+    "songname": "Pursuit of Happiness",
+    "album": "Man On The Moon: The End of Day",
+    "genius": "http://genius.com/Kid-cudi-pursuit-of-happiness-lyrics"
   }
+
 ]
