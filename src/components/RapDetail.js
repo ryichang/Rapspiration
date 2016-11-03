@@ -56,6 +56,7 @@ class RapDetail extends Component {
     // const currentRap = this.props.raps.currentRap;
     const { currentLyric } = this.props.lyrics;
     const { currentArtist } = this.props.artist;
+    const { currentAlbums } = this.props.albums;
     console.log('currentArtist in rap detail is', currentArtist)
     // console.log('currentLyric in rap detail is', currentLyric)
 
@@ -79,7 +80,7 @@ class RapDetail extends Component {
 		return (
       <div className="col-md-12 rapContainer">
         <div className="col-md-3 col-sm-12">
-          <RapTimeline />
+          <RapTimeline {currentAlbums}/>
         </div>
         <div className="col-md-5 col-sm-12 polaroid">
           <div onClick={this.onClick}>
@@ -110,12 +111,13 @@ function mapStateToProps(state) {
   return {
     rapDetail: state.rapDetail,
     lyrics: state.lyrics,
+    albums: state.albums,
     artist: state.artist
   };
 }
 
 function mapDispatchToProps(dispatch) {
-  return bindActionCreators({ fetchNewLyric: fetchNewLyric, fetchNewArtist: fetchNewArtist, showInitialLoading: showInitialLoading }, dispatch)
+  return bindActionCreators({ fetchNewLyric: fetchNewLyric, fetchNewArtist: fetchNewArtist, fetchNewAlbum: fetchNewAlbum, showInitialLoading: showInitialLoading }, dispatch)
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(RapDetail);
