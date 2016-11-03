@@ -56,7 +56,8 @@ img.scale { width: 100%; }*/
   top: -10px;
   width: 60px;
 	position: relative;
-  left: 8px
+  left: 8px;
+  /*image-rendering: auto;*/
 }
 
 #top-spacer {
@@ -175,7 +176,6 @@ transform: scale(1);*/
   /*font-family: 'Open Sans', sans-serif !important;*/
   font-family: "museo-sans-rounded" !important;
   /*font-family: Helvetica Neue,Helvetica,sans-serif;*/
-
   display: block;
   position: relative;
   /*top: 50%;*/

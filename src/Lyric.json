@@ -23,7 +23,6 @@ module.exports =
   },
   {
     "id": 3,
-    "artist": "Kid Cudi",
     "lyric": "I'mma do just what I want / Looking ahead, no turning back / If I fall, if I die; know I lived it to the fullest / If I fall, if I die; know I lived and missed some bullets",
     "songname": "Pursuit of Happiness",
     "album": "Man On The Moon: The End of Day",

@@ -4,11 +4,11 @@ import { connect } from 'react-redux';
 class RapLyric extends Component {
 	render() {
     const lyric = this.props.lyric
-		console.log('lyric is ', lyric)
+		// console.log('lyric is ', lyric)
     const lyricContent = lyric.split(' ');
     const lyricString = "";
     const tweet = 'https://twitter.com/intent/tweet?text='+lyric+'%20%40Rapspiration&url=http%3A%2F%2Fwww.rapspiration.com%2F&hashtags=rapspiration&related=rxneu'
-    console.log('tweet is', tweet)
+    // console.log('tweet is', tweet)
 
 
 		return (
