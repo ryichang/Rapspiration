@@ -41,6 +41,7 @@ class RapDetail extends Component {
       console.log('different')
       console.log(nextProps.lyrics.currentLyric.artistId)
       this.props.fetchNewArtist(nextProps.lyrics.currentLyric.artistId)
+      this.props.fetchNewAlbum(nextProps.lyrics.currentLyric.artistId)
     }
 
 

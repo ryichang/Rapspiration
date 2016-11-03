@@ -22,14 +22,14 @@ export function fetchNewLyric() {
 }
 
 
-export function fetchNewArtist(artistId) {
+export function fetchNewArtist(lyricArtistId) {
   return dispatch => {
         let newArtist;
         for (var id in artist) {
           // console.log('artist is', artist)
           // console.log('artistId is', artistId)
           //   console.log('id is', id)
-          if (id == artistId){
+          if (id == lyricArtistId){
             console.log('artist id is',artist[id])
             newArtist = artist[id];
             console.log('newArtist in reducer is', newArtist)
@@ -40,15 +40,23 @@ export function fetchNewArtist(artistId) {
     dispatch({ type: 'FETCH_NEW_ARTIST', newArtist: newArtist })
   }
 }
-// for (var key in artist) {
-//       console.log('artistId is', artistId)
-//       console.log('artist is', artist)
-//   if (artist.id == artistId) {
-//     const newArtist = artist[key]
-//
-//   }
 
-// const newArtist = _.forOwn(artist, function(value, key) {
-//   if (value === artistId) {
-//   }
-// })
+
+export function fetchNewArtist(lyricArtistId) {
+  return dispatch => {
+        let newAlbum;
+        for (var artistId in album) {
+          // console.log('artist is', artist)
+          // console.log('artistId is', artistId)
+          //   console.log('id is', id)
+          if (artistId == lyricArtistId){
+            console.log('album id is',album[id])
+            newAlbum = artist[id];
+            console.log('newAlbum in action is', newAlbum)
+          }
+        }
+        console.log('newAlbum outside is', newAlbum)
+
+    dispatch({ type: 'FETCH_NEW_ALBUM', newAlbum: newAlbum })
+  }
+}
