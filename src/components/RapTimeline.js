@@ -3,7 +3,8 @@ import { connect } from 'react-redux';
 
 class RapTimeline extends Component {
 	render() {
-		const image = this.props.image
+		const albums = this.props.albums
+		console.log('currentAlbums in RapTimeLine is', albums)
 
 		return (
       <div className="col-md-12">
@@ -15,8 +16,7 @@ class RapTimeline extends Component {
           <div className="content">
             <h2>About</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+						{albums.description}
             </p>
           </div>
         </div>

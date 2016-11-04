@@ -174,7 +174,8 @@ transform: scale(1);*/
 .rapLyric {
   cursor: text;
   /*font-family: 'Open Sans', sans-serif !important;*/
-  font-family: "museo-sans-rounded" !important;
+  /*font-family: "museo-sans-rounded" !important;*/
+  font-family: 'Economica', sans-serif !important;
   /*font-family: Helvetica Neue,Helvetica,sans-serif;*/
   display: block;
   position: relative;

@@ -28,5 +28,12 @@ module.exports =
     "album": "Man On The Moon: The End of Day",
     "genius": "http://genius.com/Kid-cudi-pursuit-of-happiness-lyrics",
     "artistId": 3,
-  }
+  },
+  {
+    "id": 4,
+    "lyric": "Old folks talking about back in my day / But homie this is my day",
+    "songName": "Can't Tell Me Nothing",
+    "genius": "http://genius.com/Kanye-west-cant-tell-me-nothing-lyrics",
+    "artistId": 1,
+  },
 ]

@@ -44,8 +44,8 @@ class RapDetail extends Component {
       this.props.fetchNewAlbums(nextProps.lyrics.currentLyric.artistId)
     }
 
-
   }
+
 
   onClick = () => {
     console.log("Image Clicked");
@@ -81,7 +81,9 @@ class RapDetail extends Component {
 		return (
       <div className="col-md-12 rapContainer">
         <div className="col-md-3 col-sm-12">
-          <RapTimeline />
+          <RapTimeline
+           albums={currentAlbums}
+          />
         </div>
         <div className="col-md-5 col-sm-12 polaroid">
           <div onClick={this.onClick}>
