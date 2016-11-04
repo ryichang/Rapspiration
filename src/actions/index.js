@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import lyric from '../Lyric.json';
 import artist from '../Artist.json';
+import album from '../Album.json';
 
 export function showInitialLoading(shouldShowLoading) {
   return dispatch => {
@@ -42,21 +43,21 @@ export function fetchNewArtist(lyricArtistId) {
 }
 
 
-export function fetchNewArtist(lyricArtistId) {
+export function fetchNewAlbums(lyricArtistId) {
   return dispatch => {
-        let newAlbum;
+        let newAlbums;
         for (var artistId in album) {
           // console.log('artist is', artist)
           // console.log('artistId is', artistId)
           //   console.log('id is', id)
           if (artistId == lyricArtistId){
             console.log('album id is',album[id])
-            newAlbum = artist[id];
+            newAlbums = album[id];
             console.log('newAlbum in action is', newAlbum)
           }
         }
         console.log('newAlbum outside is', newAlbum)
 
-    dispatch({ type: 'FETCH_NEW_ALBUM', newAlbum: newAlbum })
+    dispatch({ type: 'FETCH_NEW_ALBUMS', newAlbums: newAlbums })
   }
 }

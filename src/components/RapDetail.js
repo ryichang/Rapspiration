@@ -41,7 +41,7 @@ class RapDetail extends Component {
       console.log('different')
       console.log(nextProps.lyrics.currentLyric.artistId)
       this.props.fetchNewArtist(nextProps.lyrics.currentLyric.artistId)
-      this.props.fetchNewAlbum(nextProps.lyrics.currentLyric.artistId)
+      this.props.fetchNewAlbums(nextProps.lyrics.currentLyric.artistId)
     }
 
 
@@ -58,6 +58,7 @@ class RapDetail extends Component {
     const { currentArtist } = this.props.artist;
     const { currentAlbums } = this.props.albums;
     console.log('currentArtist in rap detail is', currentArtist)
+    console.log('currentAlbums in rap detail is', currentAlbums)
     // console.log('currentLyric in rap detail is', currentLyric)
 
     if (this.props.rapDetail.isInitialLoading) {
@@ -80,7 +81,7 @@ class RapDetail extends Component {
 		return (
       <div className="col-md-12 rapContainer">
         <div className="col-md-3 col-sm-12">
-          <RapTimeline {currentAlbums}/>
+          <RapTimeline />
         </div>
         <div className="col-md-5 col-sm-12 polaroid">
           <div onClick={this.onClick}>
@@ -117,7 +118,7 @@ function mapStateToProps(state) {
 }
 
 function mapDispatchToProps(dispatch) {
-  return bindActionCreators({ fetchNewLyric: fetchNewLyric, fetchNewArtist: fetchNewArtist, fetchNewAlbum: fetchNewAlbum, showInitialLoading: showInitialLoading }, dispatch)
+  return bindActionCreators({ fetchNewLyric: fetchNewLyric, fetchNewArtist: fetchNewArtist, fetchNewAlbums: fetchNewAlbums, showInitialLoading: showInitialLoading }, dispatch)
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(RapDetail);
