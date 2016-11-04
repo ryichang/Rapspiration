@@ -9,7 +9,7 @@ import RapTimeline from './RapTimeline';
 
 // import RapCard from './RapCard';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-import { fetchNewLyric, fetchNewArtist, showInitialLoading } from '../actions/index';
+import { fetchNewLyric, fetchNewArtist, fetchNewAlbums, showInitialLoading } from '../actions/index';
 
 
 class RapDetail extends Component {

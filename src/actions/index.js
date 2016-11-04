@@ -53,10 +53,10 @@ export function fetchNewAlbums(lyricArtistId) {
           if (artistId == lyricArtistId){
             console.log('album id is',album[id])
             newAlbums = album[id];
-            console.log('newAlbum in action is', newAlbum)
+            console.log('newAlbum in action is', newAlbums)
           }
         }
-        console.log('newAlbum outside is', newAlbum)
+        console.log('newAlbum outside is', newAlbums)
 
     dispatch({ type: 'FETCH_NEW_ALBUMS', newAlbums: newAlbums })
   }
