@@ -103,21 +103,21 @@ class RapTimeline extends Component {
 							background: 'transparent',
 							foreground: '#F9BEBD',
 							outline:'',
-	            }}
+						}}
 
-				/>
+					/>
 				</div>
 				<div className="col-md-3 RapTimelineContent">
-				<SwipeableViews
-					index={0}
-					onChangeIndex={(value, previous) => {
-						console.log('value', value)
-						console.log('previous', previous)
-						this.setState({ value: value, previous: previous });
-					}}
-					resistance>
-					<div>
-					{album[this.state.value].content}
+					<SwipeableViews
+						index={0}
+						onChangeIndex={(value, previous) => {
+							console.log('value', value)
+							console.log('previous', previous)
+							this.setState({ value: value, previous: previous });
+						}}
+						resistance>
+						<div>
+							{album[this.state.value].content}
 					</div>
 				</SwipeableViews>
 				</div>

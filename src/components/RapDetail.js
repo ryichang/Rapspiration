@@ -64,7 +64,6 @@ class RapDetail extends Component {
       return (
         <div className="col-md-12 LoadingContainer">
           <img src={"../img/intro.png"} className="LoadingIcon"></img>
-
         </div>
       )
     }
@@ -80,26 +79,29 @@ class RapDetail extends Component {
 		return (
       <div className="col-md-12 rapContainer">
         <RapTimeline
-         albums={currentAlbums}
-         artist={currentArtist.artist}
-         key={currentArtist.id}
+          albums={currentAlbums}
+          artist={currentArtist.artist}
+          key={currentArtist.id}
         />
         <div className="col-md-5 col-sm-12 polaroid">
           <div onClick={this.onClick}>
             <div className="polaroidPhoto">
-            <RapImage image={currentArtist.image} />
+              <RapImage image={currentArtist.image} />
             </div>
-            </div>
-            <RapArtist artist={currentArtist.artist} key={currentArtist.id}/>
+          </div>
+          <RapArtist artist={currentArtist.artist} key={currentArtist.id}/>
         </div>
         <div className="col-md-4 col-sm-12">
-        <ReactCSSTransitionGroup
+          {/* <ReactCSSTransitionGroup
             transitionName="example"
             transitionEnterTimeout={500}
-            transitionLeaveTimeout={300}>
+          transitionLeaveTimeout={300}> */}
 
-        <RapLyric lyric={currentLyric.lyric} key={currentLyric.id}/>
-        </ReactCSSTransitionGroup>
+          <RapLyric
+            lyric={currentLyric.lyric}
+            artist={currentArtist.artist}
+            key={currentLyric.id}/>
+          {/* </ReactCSSTransitionGroup> */}
         </div>
         {/* <div className="col-md-1">
 

@@ -7,7 +7,9 @@ class RapImage extends Component {
 		// console.log('image is ', image)
 		return (
       <div className="rapImage">
-        <img src={image} className="img-fluid"/>
+				<div className="c-awake">
+					<img src={image} className="img-fluid"/>
+				</div>
       </div>
     );
 	}
