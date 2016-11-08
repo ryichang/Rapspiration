@@ -7,7 +7,7 @@ const INITAL_STATE = {
 export default function (state = INITAL_STATE, action) {
   switch(action.type) {
     case 'FETCH_NEW_ALBUMS':
-      console.log('action newAlbums', action)
+      // console.log('action newAlbums', action)
       return { ...state, currentAlbums: action.newAlbums }
     default:
       return state;

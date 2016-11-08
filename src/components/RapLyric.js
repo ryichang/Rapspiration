@@ -14,7 +14,7 @@ class RapLyric extends Component {
 		return (
       <div className="col-md-12 rapLyric">
 				<div className="quote">
-	        <h1>{lyric}</h1>
+					<h1>{lyric}</h1>
 	        <a href={tweet} target="_blank">
 	        <i className="fa fa-twitter twitter" aria-hidden="true"></i>
 	        </a>

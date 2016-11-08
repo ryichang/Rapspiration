@@ -8,7 +8,7 @@ const INITAL_STATE = {
 export default function (state = INITAL_STATE, action) {
   switch(action.type) {
     case 'FETCH_NEW_ARTIST':
-      console.log('action newArtist', action)
+      // console.log('action newArtist', action)
       return { ...state, currentArtist: action.newArtist }
     default:
       return state;

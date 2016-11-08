@@ -44,17 +44,17 @@ export function fetchNewArtist(lyricArtistId) {
 
 
 export function fetchNewAlbums(lyricArtistId) {
-  console.log('hits fetchNewAlbums')
+  // console.log('hits fetchNewAlbums')
   return dispatch => {
         let newAlbums = [];
         // for (var album in albums) {
         _.each(albums, function(album) {
-          console.log('lyricArtistId is', lyricArtistId)
-          console.log('album is', album)
+          // console.log('lyricArtistId is', lyricArtistId)
+          // console.log('album is', album)
           if (album.artistId == lyricArtistId){
-            console.log('album id is', album.artistId)
+            // console.log('album id is', album.artistId)
             newAlbums.push(album);
-            console.log('newAlbum in action is', newAlbums)
+            // console.log('newAlbum in action is', newAlbums)
           }
         })
         // }
@@ -67,7 +67,7 @@ export function fetchNewAlbums(lyricArtistId) {
         //     }
         //   }
         // }
-        console.log('newAlbum outside is', newAlbums)
+        // console.log('newAlbum outside is', newAlbums)
 
     dispatch({ type: 'FETCH_NEW_ALBUMS', newAlbums: newAlbums })
   }

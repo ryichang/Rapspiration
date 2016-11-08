@@ -20,7 +20,6 @@ class RapDetail extends Component {
   }
 
   componentDidMount() {
-    console.log('componentDidMount isInitialLoading', this.props.rapDetail.isInitialLoading)
     // if (this.props.rapDetail.isInitialLoading) {
       this.props.fetchNewLyric()
       setTimeout(() => {
@@ -38,8 +37,8 @@ class RapDetail extends Component {
     // call action to update album and artist
 
     if(!_.isEqual(this.props.lyrics.currentLyric, nextProps.lyrics.currentLyric)){
-      console.log('different')
-      console.log(nextProps.lyrics.currentLyric.artistId)
+      // console.log('different')
+      // console.log(nextProps.lyrics.currentLyric.artistId)
       this.props.fetchNewArtist(nextProps.lyrics.currentLyric.artistId)
       this.props.fetchNewAlbums(nextProps.lyrics.currentLyric.artistId)
     }
@@ -48,7 +47,7 @@ class RapDetail extends Component {
 
 
   onClick = () => {
-    console.log("Image Clicked");
+    // console.log("Image Clicked");
     this.props.fetchNewLyric()
   }
 
@@ -57,8 +56,8 @@ class RapDetail extends Component {
     const { currentLyric } = this.props.lyrics;
     const { currentArtist } = this.props.artist;
     const { currentAlbums } = this.props.albums;
-    console.log('currentArtist in rap detail is', currentArtist)
-    console.log('currentAlbums in rap detail is', currentAlbums)
+    // console.log('currentArtist in rap detail is', currentArtist)
+    // console.log('currentAlbums in rap detail is', currentAlbums)
     // console.log('currentLyric in rap detail is', currentLyric)
 
     if (this.props.rapDetail.isInitialLoading) {
@@ -80,11 +79,11 @@ class RapDetail extends Component {
 
 		return (
       <div className="col-md-12 rapContainer">
-        <div className="col-md-3 col-sm-12">
-          <RapTimeline
-           albums={currentAlbums}
-          />
-        </div>
+        <RapTimeline
+         albums={currentAlbums}
+         artist={currentArtist.artist}
+         key={currentArtist.id}
+        />
         <div className="col-md-5 col-sm-12 polaroid">
           <div onClick={this.onClick}>
             <div className="polaroidPhoto">
