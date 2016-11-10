@@ -9,7 +9,7 @@ import RapTimeline from './RapTimeline';
 
 // import RapCard from './RapCard';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-import { fetchNewLyric, fetchNewArtist, fetchNewAlbums, showInitialLoading } from '../actions/index';
+import { fetchNewLyric, fetchNewArtist, fetchNewTimeline, showInitialLoading } from '../actions/index';
 
 
 class RapDetail extends Component {
@@ -40,7 +40,7 @@ class RapDetail extends Component {
       // console.log('different')
       // console.log(nextProps.lyrics.currentLyric.artistId)
       this.props.fetchNewArtist(nextProps.lyrics.currentLyric.artistId)
-      this.props.fetchNewAlbums(nextProps.lyrics.currentLyric.artistId)
+      this.props.fetchNewTimeline(nextProps.lyrics.currentLyric.artistId)
     }
 
   }
@@ -55,9 +55,9 @@ class RapDetail extends Component {
     // const currentRap = this.props.raps.currentRap;
     const { currentLyric } = this.props.lyrics;
     const { currentArtist } = this.props.artist;
-    const { currentAlbums } = this.props.albums;
+    const { currentTimeline } = this.props.timeline;
     // console.log('currentArtist in rap detail is', currentArtist)
-    // console.log('currentAlbums in rap detail is', currentAlbums)
+    // console.log('currentTimeline in rap detail is', currentTimeline)
     // console.log('currentLyric in rap detail is', currentLyric)
 
     if (this.props.rapDetail.isInitialLoading) {
@@ -79,7 +79,7 @@ class RapDetail extends Component {
 		return (
       <div className="col-md-12 rapContainer">
         <RapTimeline
-          albums={currentAlbums}
+          timeline={currentTimeline}
           artist={currentArtist.artist}
           key={currentArtist.id}
         />
@@ -115,13 +115,13 @@ function mapStateToProps(state) {
   return {
     rapDetail: state.rapDetail,
     lyrics: state.lyrics,
-    albums: state.albums,
+    timeline: state.timeline,
     artist: state.artist
   };
 }
 
 function mapDispatchToProps(dispatch) {
-  return bindActionCreators({ fetchNewLyric: fetchNewLyric, fetchNewArtist: fetchNewArtist, fetchNewAlbums: fetchNewAlbums, showInitialLoading: showInitialLoading }, dispatch)
+  return bindActionCreators({ fetchNewLyric: fetchNewLyric, fetchNewArtist: fetchNewArtist, fetchNewTimeline: fetchNewTimeline, showInitialLoading: showInitialLoading }, dispatch)
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(RapDetail);

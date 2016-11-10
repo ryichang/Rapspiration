@@ -1,5 +1,22 @@
 module.exports =
 [
+  { "id": 100,
+    "artistId": "5",
+    "category": [
+      {
+        "type": "album",
+        "title": "name of album",
+        "content": "desc",
+        "date": "2/2/3033"
+      },
+      {
+        "type": "birthday",
+        "title": "birthday",
+        "content": "",
+        "date": "2/3/20"
+      }
+    ]
+  },
   { "id": 0,
     "albumName": "Ready to Die",
     "albumYear": "1/1/1994",

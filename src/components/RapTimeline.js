@@ -11,22 +11,6 @@ class RapTimeline extends Component {
 		this.state = {
       value: 0,
       previous: 0,
-			// timelineConfig
-		minEventPadding: 20,
-		maxEventPadding: 120,
-		linePadding: 100,
-		labelWidth: 100,
-		fillingMotionStiffness: 150,
-		fillingMotionDamping: 25,
-		slidingMotionStiffness: 150,
-		slidingMotionDamping: 25,
-		// stylesBackground: 'transparent',
-		// stylesForeground: '#fffff',
-		// stylesOutline: 'transparent',
-		isTouchEnabled: true,
-		isKeyboardEnabled: true,
-		isOpenEnding: true,
-		isOpenBeginning: true,
     };
 	}
 	componentWillReceiveProps(nextProps){
@@ -38,42 +22,51 @@ class RapTimeline extends Component {
 		}
 
 	}
+
+	// timeline(albums){
+	// 	return _.map(albums, (album) => {
+	// 		return album.albumYear
+	// 	})
+	// }
+	// timeline(timeline){
+	// 	return _.map(timeline, (category) => {
+	// 		return category.date
+	// 		console.log(category.date)
+	// 	})
+	// }
+	date(timeline){
+		console.log('hit')
+		return _.map(timeline.category, (category) => {
+			return category.date
+		})
+	}
+
+
+
 	render() {
-		const albums = this.props.albums
-		// console.log('***', albums)
-		if (!albums){
+		// let albums = this.props.albums
+		// // console.log('***', albums)
+		// if (!albums){
+		// 	return(
+		// 		<div>loading...</div>
+		// 	)
+		// };
+		let timeline = this.props.timeline;
+		console.log('timeline in RapTimeline is', timeline)
+		if (!timeline){
 			return(
 				<div>loading...</div>
 			)
-		};
+		}
 		const artist = this.props.artist
 		console.log('artist is', artist)
-		const album = albums.map((album, index) => {
-			// console.log('date is', album.albumYear)
-			// console.log('album is', album.albumName)
-			return ({
-        date: album.albumYear,
-				content: album.content,
-        component: (
-          <div className='container' key={index}>
-            <h1>{ `Albums ${index + 1}:`}</h1>
-            <h2>{ album.albumName }</h2>
-            <hr />
-            <p>{ album.content }</p>
-            <hr />
-          </div>
-        )
-      })
 
-			// return(
-			//
-			// 	<div key={index}>
-			// 		<h1>{ album.albumName }</h1>
-			// 		<p>{ album.albumDescription }</p>
-			// 	</div>
-			// )
+		let category = timeline.category;
+
+		category.sort(function(a,b){
+			return new Date(a.date) - new Date(b.date);
 		})
-		// console.log('END', album)
+
 
 		const test = [{
 			date: '01/01/1999',
@@ -83,8 +76,8 @@ class RapTimeline extends Component {
 			)
 		}]
 
-		// const test2 = ['10/10/1999']
 		// console.log('album content is', album[this.state.value].content)
+		console.log('timeline category is', timeline.category)
 		console.log("CURRENT INDEX", this.state.value)
 		return(
 			<div>
@@ -96,9 +89,9 @@ class RapTimeline extends Component {
 						indexClick={(index) => {
 							this.setState({ value: index, previous: this.state.value });
 						}}
-						values={ _.map(albums, (album) => {
-							return album.albumYear
-						}) }
+						values = {this.date(timeline)}
+						// values={this.date(timeline)}
+						styles={this.state.styles}
 						styles={{
 							background: 'transparent',
 							foreground: '#F9BEBD',
@@ -116,9 +109,10 @@ class RapTimeline extends Component {
 							this.setState({ value: value, previous: previous });
 						}}
 						resistance>
-						<div>
-							{album[this.state.value].content}
-					</div>
+						<div className="RapContent">
+							<div className="timelineCategory"><h1>{timeline.category[this.state.value].type}</h1></div>
+							{timeline.category[this.state.value].content}
+						</div>
 				</SwipeableViews>
 				</div>
 			</div>

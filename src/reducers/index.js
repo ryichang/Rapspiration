@@ -1,14 +1,14 @@
 import { combineReducers } from 'redux';
 import LyricReducer from './LyricReducer';
 import ArtistReducer from './ArtistReducer';
-import AlbumReducer from './AlbumReducer';
+import TimelineReducer from './TimelineReducer';
 import RapDetailReducer from './RapDetailReducer';
 
 const rootReducer = combineReducers({
   rapDetail: RapDetailReducer,
   lyrics: LyricReducer,
   artist: ArtistReducer,
-  albums: AlbumReducer
+  timeline: TimelineReducer
 });
 
 export default rootReducer;

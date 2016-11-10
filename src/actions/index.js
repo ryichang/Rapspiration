@@ -1,7 +1,8 @@
 import _ from 'lodash';
 import lyric from '../Lyric.json';
 import artist from '../Artist.json';
-import albums from '../Album.json';
+// import albums from '../Album.json';
+import timelines from '../Timeline.json';
 
 export function showInitialLoading(shouldShowLoading) {
   return dispatch => {
@@ -42,33 +43,45 @@ export function fetchNewArtist(lyricArtistId) {
   }
 }
 
-
-export function fetchNewAlbums(lyricArtistId) {
-  // console.log('hits fetchNewAlbums')
+export function fetchNewTimeline(lyricArtistId) {
   return dispatch => {
-        let newAlbums = [];
-        // for (var album in albums) {
-        _.each(albums, function(album) {
-          // console.log('lyricArtistId is', lyricArtistId)
-          // console.log('album is', album)
-          if (album.artistId == lyricArtistId){
-            // console.log('album id is', album.artistId)
-            newAlbums.push(album);
-            // console.log('newAlbum in action is', newAlbums)
-          }
-        })
-        // }
-        // for (var album in albums){
-        //   console.log('album in albums', albums[album])
-        //   for (var artistId in albums[album]){
-        //     if (artistId == lyricArtistId){
-        //       newAlbums = albums[artistId]
-        //       console.log('newAlbums is', newAlbums)
-        //     }
-        //   }
-        // }
-        // console.log('newAlbum outside is', newAlbums)
-
-    dispatch({ type: 'FETCH_NEW_ALBUMS', newAlbums: newAlbums })
+    let newTimeline;
+    _.each(timelines, function(timeline) {
+      if (timeline.artistId == lyricArtistId){
+        newTimeline = timeline;
+      }
+    })
+    dispatch({ type: 'FETCH_NEW_TIMELINE', newTimeline: newTimeline })
   }
 }
+
+
+// export function fetchNewAlbums(lyricArtistId) {
+//   // console.log('hits fetchNewAlbums')
+//   return dispatch => {
+//         let newAlbums = [];
+//         // for (var album in albums) {
+//         _.each(albums, function(album) {
+//           // console.log('lyricArtistId is', lyricArtistId)
+//           // console.log('album is', album)
+//           if (album.artistId == lyricArtistId){
+//             // console.log('album id is', album.artistId)
+//             newAlbums.push(album);
+//             // console.log('newAlbum in action is', newAlbums)
+//           }
+//         })
+//         // }
+//         // for (var album in albums){
+//         //   console.log('album in albums', albums[album])
+//         //   for (var artistId in albums[album]){
+//         //     if (artistId == lyricArtistId){
+//         //       newAlbums = albums[artistId]
+//         //       console.log('newAlbums is', newAlbums)
+//         //     }
+//         //   }
+//         // }
+//         // console.log('newAlbum outside is', newAlbums)
+//
+//     dispatch({ type: 'FETCH_NEW_ALBUMS', newAlbums: newAlbums })
+//   }
+// }
