@@ -80,7 +80,7 @@ img.scale { width: 100%; }*/
 
 .logo {
   top: -10px;
-  width: 60px;
+  width: 200px;
 	position: relative;
   left: 8px;
   /*image-rendering: auto;*/
@@ -182,7 +182,7 @@ transform: scale(1);*/
 }
 
 .rapContainer {
-  margin-top: 50px;
+  margin-top: 80px;
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -321,7 +321,7 @@ h2 {
 }
 
 .RapContent {
-  max-height: 600px;
+  max-height: 480px;
 }
 
 .highlight {

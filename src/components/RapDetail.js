@@ -83,7 +83,7 @@ class RapDetail extends Component {
           artist={currentArtist.artist}
           key={currentArtist.id}
         />
-        <div className="col-md-5 col-sm-12 polaroid">
+        <div className="col-md-4 col-sm-12 polaroid">
           <div onClick={this.onClick}>
             <div className="polaroidPhoto">
               <RapImage image={currentArtist.image} />

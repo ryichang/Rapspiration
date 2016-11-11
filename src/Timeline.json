@@ -6,7 +6,7 @@ module.exports =
       {
         "type": "Bio",
         "title": "Birthday",
-        "content": "Wallace was born in St. Mary's Hospital in Brooklyn, New York, New York, on May 21, 1972, as the only child of Voletta Wallace, a Jamaican preschool teacher, and Selwyn George Latore, a Jamaican welder and politician. His father left the family when Wallace was two years old, and his mother worked two jobs while raising him. Wallace grew up in the Clinton Hill section of Brooklyn on 226 St. James Place near the border of Bedford-Stuyvesant, Brooklyn, considered at the time to be within the latter neighborhood's boundaries.",
+        "content": "Christopher George Latore Wallace was born in St. Mary's Hospital in Brooklyn, New York, New York, on May 21, 1972, as the only child of Voletta Wallace, a Jamaican preschool teacher, and Selwyn George Latore, a Jamaican welder and politician. His father left the family when Wallace was two years old, and his mother worked two jobs while raising him. Wallace grew up in the Clinton Hill section of Brooklyn on 226 St. James Place near the border of Bedford-Stuyvesant, Brooklyn, considered at the time to be within the latter neighborhood's boundaries.",
         "date": "05/21/1972"
       },
       {
@@ -52,7 +52,160 @@ module.exports =
         "date": "03/09/1997"
       }
     ]
-  }
+  },
+  { "id": 1,
+    "artistId": "1",
+    "category": [
+      {
+        "type": "Bio",
+        "title": "Birthday",
+        "content": "Kanye Omari West was born on June 8, 1977 in Atlanta, Georgia. His parents divorced when he was three years old. After the divorce, he and his mother moved to Chicago, Illinois. His father, Ray West, is a former Black Panther and was one of the first black photojournalists at The Atlanta Journal-Constitution. Ray West was later a Christian counselor, and in 2006, opened the Good Water Store and Café in Lexington Park, Maryland with startup capital from his son. West's mother, Dr. Donda C. (Williams) West, was a professor of English at Clark Atlanta University, and the Chair of the English Department at Chicago State University before retiring to serve as his manager. West was raised in a middle-class background, attending Polaris High School in suburban Oak Lawn, Illinois after living in Chicago. At the age of 10, West moved with his mother to Nanjing, China, where she was teaching at Nanjing University as part of an exchange program. According to his mother, West was the only foreigner in his class, but settled in well and quickly picked up the language, although he has since forgotten most of it. When asked about his grades in high school, West replied, \"I got A's and B's. And I'm not even frontin'.\" West demonstrated an affinity for the arts at an early age; he began writing poetry when he was five years old. His mother recalled that she first took notice of West's passion for drawing and music when he was in the third grade. Growing up in Chicago, West became deeply involved in its hip hop scene. He started rapping in the third grade and began making musical compositions in the seventh grade, eventually selling them to other artists. At age thirteen, West wrote a rap song called \"Green Eggs and Ham\" and began to persuade his mother to pay $25 an hour for time in a recording studio. It was a small, crude basement studio where a microphone hung from the ceiling by a wire clothes hanger. Although this wasn't what West's mother wanted, she nonetheless supported him. West crossed paths with producer/DJ No I.D., with whom he quickly formed a close friendship. No I.D. soon became West's mentor, and it was from him that West learned how to sample and program beats after he received his first sampler at age 15. After graduating from high school, West received a scholarship to attend Chicago's American Academy of Art in 1997 and began taking painting classes, but shortly after transferred to Chicago State University to study English. He soon realized that his busy class schedule was detrimental to his musical work, and at 20 he dropped out of college to pursue his musical dreams. This action greatly displeased his mother, who was also a professor at the university. She later commented, \"It was drummed into my head that college is the ticket to a good life... but some career goals don\'t require college. For Kanye to make an album called College Dropout it was more about having the guts to embrace who you are, rather than following the path society has carved out for you.\"",
+        "date": "05/08/1977"
+      },
+      {
+        "type": "Album",
+        "title": "The College Dropout",
+        "content": "The College Dropout is the debut studio album by American hip hop artist Kanye West, released February 10, 2004, by Roc-A-Fella Records. It was recorded over a period of four years, beginning in 1999. Prior to the album's release, West had received praise for his production work for artists such as Jay-Z and Talib Kweli, but faced difficulty being accepted as a recording artist in his own right by figures in the music industry. Nonetheless intent on pursuing a solo career, it was several years before West finally received a record deal from Roc-A-Fella Records.",
+        "date": "02/10/2004"
+      },
+      {
+        "type": "Album",
+        "title": "Late Registration",
+        "content": "Late Registration is the second studio album by American hip hop producer and rapper Kanye West, released on August 30, 2005, by Roc-A-Fella Records and Def Jam Recordings. It was recorded over the course of a year in sessions held across studios in New York City and Hollywood, with West collaborating with American record producer and composer Jon Brion. The album features guest contributions from Adam Levine, Lupe Fiasco, Jamie Foxx, Common, Jay-Z, Brandy, and Nas, among others. Its production was notably more lush and elaborate than West's 2004 debut album The College Dropout, as he utilized intricate sampling methods and string orchestration with Brion. West's lyrics explore both personal and political themes, including poverty, drug trafficking, racism, healthcare, and the blood diamond trade.",
+        "date": "08/30/2005"
+      },
+      {
+        "type": "Album",
+        "title": "Graduation",
+        "content": "Graduation is the third studio album by American hip hop recording artist and record producer Kanye West. It was released on September 11, 2007, by Roc-A-Fella Records. Recording sessions for the album took place during 2005 to 2007 at Chung King Studios and Sony Music Studios in New York City and at Chalice Studios and The Record Plant in Los Angeles. It was primarily produced by West himself, with contributions from DJ Toomp, as well as Mike Dean, Nottz, Brian \"All Day\" Miller, Eric Hudson, Warryn Campbell, Gee Roberson, Plain Pat and Jon Brion. It features guest contributions from artists, including Mos Def, Dwele, T-Pain, Lil Wayne, DJ Premier and Chris Martin of Coldplay. The album's cover artwork was designed by Japanese contemporary artist Takashi Murakami.",
+        "date": "09/11/2007"
+      },
+      {
+        "type": "Album",
+        "title": "808s & HeartBreak",
+        "content": "808s & Heartbreak is the fourth studio album by American recording artist Kanye West, released on November 24, 2008, by Roc-A-Fella Records. It was recorded during September and October 2008 at Glenwood Studios in Burbank, California and Avex Recording Studio in Honolulu, Hawaii, with the help of producers No I.D., Jeff Bhasker and others.",
+        "date": "11/24/2008"
+      },
+      {
+        "type": "Album",
+        "title": "My Beautiful Dark Twisted Fantasy",
+        "content": "My Beautiful Dark Twisted Fantasy is the fifth studio album by American hip hop producer and rapper Kanye West, released on November 22, 2010, by Roc-A-Fella Records. Following a period of public and legal controversy, West retreated to a \"self-imposed exile\" in Hawaii in 2009. There, he worked on the album in a communal recording environment that involved numerous contributing musicians and producers. The album features guest appearances from Bon Iver, Jay Z, Pusha T, Rick Ross, Kid Cudi, Nicki Minaj, John Legend and more. Production is led by West himself, alongside a variety of high-profile record producers including Mike Dean, No I.D., Jeff Bhasker, RZA, S1, Bink and DJ Frank E. Noted by critics for its maximalist aesthetic, opulent production quality, and dichotomous themes, My Beautiful Dark Twisted Fantasy incorporates aspects of West's previous works, including soul, baroque, electro, and symphonic styles. The album deals with themes of excess and celebrity, and explores such issues as consumer culture, race, and the idealism of the American Dream.",
+        "date": "11/22/2010"
+      },
+      {
+        "type": "Album",
+        "title": "Yeezus",
+        "content": "Yeezus is the seventh studio album by American rapper Kanye West. It was released on June 18, 2013 by Def Jam Recordings. West gathered a number of artists and close collaborators for production on the album, including Mike Dean, Daft Punk, Noah Goldstein, Hudson Mohawke, Arca, Che Pope, Brodinski, Gesaffelstein and Travis Scott. Yeezus also features guest vocals from Justin Vernon, Chief Keef, Kid Cudi, Assassin, King L, Charlie Wilson and Frank Ocean. Fifteen days before its release date, West enlisted the help of producer Rick Rubin to strip down the record's sound in favor of a more minimalist approach.",
+        "date": "06/18/2013"
+      },
+      {
+        "type": "Album",
+        "title": "The Life of Pablo",
+        "content": "The Life of Pablo is the seventh studio album by American rapper Kanye West. It was released on February 14, 2016, by GOOD Music, Def Jam Recordings and Roc-A-Fella Records. Recording sessions took place from 2013 to 2016, in Italy, Mexico, Canada and the United States. Record production on the album was handled by West alongside a variety of producers such as Mike Dean, Noah Goldstein, Metro Boomin, Rick Rubin, Hudson Mohawke, and more. He also enlisted a wide array of guest vocalists, including Ty Dolla Sign, Desiigner, Kid Cudi, The-Dream, Chance the Rapper, Rihanna and Frank Ocean, among others. The album was preceded by the release of the promotional singles \"Facts\", \"Real Friends\", \"No More Parties in LA\", and \"30 Hours\" as part of West's GOOD Fridays giveaways.",
+        "date": "02/14/2016"
+      },
+      {
+        "type": "Album",
+        "title": "Watch the Throne",
+        "content": "Watch the Throne is a collaborative studio album by American rappers Jay-Z and Kanye West, released on August 8, 2011, by Roc-A-Fella Records, Roc Nation, and Def Jam Recordings. Before the album, Jay-Z and West had collaborated on their respective singles and with West as a producer on Jay-Z's work. As longtime friends, they originally sought out to record a five-song EP together, but the project eventually evolved into a full-length album. Recording sessions took place at various locations and began in November 2010. Production on the album was led by West himself, alongside a variety of high-profile record producers including Mike Dean, Swizz Beatz, Sak Pase, Jeff Bhasker, The Neptunes and Q-Tip.",
+        "date": "08/08/2011"
+      }
+    ]
+  },
+  { "id": 2,
+    "artistId": "2",
+    "category": [
+      {
+        "type": "Bio",
+        "title": "Birthday",
+        "content": "Pharrell Lanscilo Williams was born on April 5, 1973, in Virginia Beach, Virginia, the oldest of three sons of Pharaoh Williams, a handyman, and his wife Carolyn, a teacher. His roots extend for generations in Virginia and North Carolina, and one of his ancestors journeyed to West Africa in 1831, prompting other relatives to emigrate from America to Liberia in 1832. He met Chad Hugo in a seventh-grade summer band camp where Williams played the keyboards and drums and Hugo played tenor saxophone. They were also both members of a marching band; Williams played the snare drum while Hugo was drum major. Williams and Hugo attended Princess Anne High School where he played in the school band; there Pharrell got the name Skateboard P. Hugo attended Kempsville High School. In the MTV show When I Was 17, Pharrell stated that he was a nerd and often did things that stood out from most of his peers. In the early 1990s, Hugo and Williams formed a four-piece \"R&B-type\" group, the Neptunes, with friends Shay Haley and Mike Etheridge. They later entered a high school talent show where they were discovered by Teddy Riley, whose studio was next to Princess Anne High School. After graduating from high school, the group signed with Riley.",
+        "date": "04/05/1973"
+      },
+      {
+        "type": "Album",
+        "title": "In Search Of...",
+        "content": "In Search of... is the debut studio album by American funk rock band N.E.R.D. The group originally released the album on August 6, 2001 in Europe, where Kelis' Wanderland—produced by The Neptunes, consisting of N.E.R.D members Pharrell Williams and Chad Hugo—was better received. Similarly to Kelis' early work, the original version of In Search of... juxtaposes hip hop and rock influences and styles. The album is named after the TV series In Search of..., hosted by Leonard Nimoy. On March 12, 2002, In Search of... was re-released worldwide, with the largely electronic production backing of the album replaced by live backing provided by 1960s-style power pop band Spymob, giving the new version of the album a more rock-oriented sound. The skits and the intro from the original album were also dropped, significantly shortening the play length.",
+        "date": "08/06/2001"
+      },
+      {
+        "type": "Album",
+        "title": "Fly or Die",
+        "content": "Fly or Die is the second studio by American funk rock band N*E*R*D. It was released on March 23, 2004. The band recorded its second album Fly or Die during 2003. The band actually learned the instruments needed to play the tunes, so they could perform live. As Chad Hugo told MTV News on December 9, 2003, \"We're the ones playing the instruments live this time. I just started playing guitar last year so I'm learning as we go. Pharrell's playing drums. Last time, (on In Search of...) we didn't have time to learn certain instruments so we got Spymob to help us out.\"The band also recruited some assistance to record the album with Lenny Kravitz and Questlove playing on the track \"Maybe.\" Several of tracks concern issues of particular concern to adolescents including \"Thrasher\" about bullies, \"Drill Sergeant\" about rebellion and conscription, and first love on \"Backseat Love\".",
+        "date": "08/06/2001"
+      },
+      {
+        "type": "Album",
+        "title": "Seeing Sounds",
+        "content": "Seeing Sounds is the third studio album by American funk rock band N.E.R.D released June 10, 2008 on Star Trak Entertainment and Interscope Records in the United States. After ending their contract with Virgin Records in 2005, the band felt their previous album Fly or Die (2004) was too consistent. Using their own money, the band recorded the album in Florida and California. The album was produced solely by record production duo The Neptunes, consisting of Pharrell Williams and Chad Hugo, with additional assistance by rock band Spymob and was mainly written by Williams. The album's title, as well as its content, revolves around the neurological phenomenon of synesthesia, the mixing of sensory modalities. The album debuted at number seven on the U.S. Billboard 200 chart, selling 80,000 in its first week. It peaked in the top 20 in Australia, Canada, the Netherlands, Switzerland and the United Kingdom, while also charting in the several other countries. Upon its release, Seeing Sounds received generally mixed to positive reviews from most music critics. Some writers called the record N.E.R.D's best album to date and praised its production, while others negatively criticized Williams' singing and the album's lyrical content.",
+        "date": "06/10/2008"
+      },
+      {
+        "type": "Album",
+        "title": "Nothing",
+        "content": "Nothing is the fourth studio album by American funk rock band N.E.R.D, released November 2, 2010 on Star Trak Entertainment and Interscope Records in the United States. On October 17, 2010, the standard edition and the deluxe edition of the album became available for pre-order on iTunes.",
+        "date": "11/02/2010"
+      },
+      {
+        "type": "Album",
+        "title": "In My Mind",
+        "content": "In My Mind is the solo debut studio album by American recording artist and record producer Pharrell. It was released on July 25, 2006. It debuted at number 3 on the US Billboard 200 and sold 142,000 copies in its first week. It was also certified Silver in the United Kingdom for sales of over 60,000 copies.",
+        "date": "07/25/2006"
+      },
+      {
+        "type": "Album",
+        "title": "G I R L",
+        "content": "Girl (stylized as G I R L) is the second studio album by American recording artist and record producer Pharrell Williams. The album was released on March 3, 2014, through Williams' label i Am Other and Columbia Records. Girl was Williams' first studio album since his 2006 debut, In My Mind. It contains appearances by Justin Timberlake, Miley Cyrus, Daft Punk, JoJo and Alicia Keys.",
+        "date": "03/03/2014"
+      }
+    ]
+  },
+  { "id": 3,
+    "artistId": "3",
+    "category": [
+      {
+        "type": "Bio",
+        "title": "Birthday",
+        "content": "Scott Ramon Seguro Mescudi was born on January 30, 1984, in Cleveland, Ohio, and grew up in Shaker Heights and Solon. He is the youngest of four children, with two brothers, Domingo and Dean, and a sister, Maisha. His mother, Elsie Harriet (Banks), is a middle-school choir teacher at Roxboro Middle School in Cleveland Heights, Ohio. His father, Lindberg Styles Mescudi, was a house painter, substitute teacher and World War II Air Force veteran. His father was of African-American and Mexican-American descent, while his mother is African-American. When he was eleven years old, Cudi's father died of cancer; his passing had a significant effect on Cudi's personality and subsequently his music. Cudi attended Shaker Heights High School for two years before transferring to Solon High School. He was expelled from the school for threatening to punch his principal and would later earn his GED. Cudi studied film at the University of Toledo, dropping out after a year. His subsequent plan to join the U.S. Navy didn't pan out because of his juvenile police record.",
+        "date": "01/30/1984"
+      },
+      {
+        "type": "Album",
+        "title": "Man on the Moon: The End of Day",
+        "content": "Man on the Moon: The End of Day is the debut studio album by American hip hop recording artist Kid Cudi, released on September 15, 2009, by Dream On, GOOD Music and Universal Motown. A concept album, narrated by fellow American rapper Common, it follows the release of his first mixtape A Kid Named Cudi (2008). Production for the album took place during 2007 to 2009 and was handled by several record producers, including Cudi, Kanye West, Emile Haynie, Plain Pat, No I.D., Dot da Genius and Jeff Bhasker, among others.",
+        "date": "09/15/2009"
+      },
+      {
+        "type": "Album",
+        "title": "Man on the Moon II: The Legend of Mr. Rager",
+        "content": "Man on the Moon II: The Legend of Mr. Rager is the second studio album by American hip hop recording artist Kid Cudi. It was released on November 9, 2010, by GOOD Music and Universal Motown. The album was supported by two singles: \"Erase Me\" featuring Kanye West and \"Mr. Rager\". Man on the Moon II: The Legend of Mr. Rager debuted at number 3 on the US Billboard 200, selling 169,000 copies during its first week of release. The album received generally positive reviews from critics. On July 26, 2012, the album was certified Gold by the Recording Industry Association of America (RIAA), for shipments of 500,000 copies in the United States.",
+        "date": "11/09/2010"
+      },
+      {
+        "type": "Album",
+        "title": "Indicud",
+        "content": "Indicud is the third studio album by American hip hop recording artist Kid Cudi. The album was released on April 12, 2013, by Republic Records. It was the first album of Cudi's solo career to not be an installment of his Man on the Moon series. The album's cover artwork was designed by Kid Cudi himself, who also served as an executive producer of Indicud. It was Cudi's goal to make more uptempo and positive music with the album. He described it as a completely new format compared to his previous albums.",
+        "date": "04/12/2013"
+      },
+      {
+        "type": "Album",
+        "title": "Satellite Flight: The Journey to Mother Moon",
+        "content": "Satellite Flight: The Journey to Mother Moon (stylized as KiD CuDi presents SATELLITE FLIGHT: The Journey to Mother Moon) is the fourth studio album by American hip hop recording artist Kid Cudi. The album was issued on February 25, 2014, with only few hours' notice, was first released to digital retailers such as iTunes and Google Play, by Wicked Awesome Records and Republic Records.",
+        "date": "02/25/2014"
+      },
+      {
+        "type": "Album",
+        "title": "Speedin' Bullet 2 Heaven",
+        "content": "Speedin' Bullet 2 Heaven is the fifth studio album by American recording artist Kid Cudi. The album was released on December 4, 2015, through Republic Records and Cudi's Wicked Awesome Records imprint. The album is a complete departure from his previous projects, excluding WZRD, a 2012 collaborative effort which was his first venture into rock music. Inspired by the 1990's indie music scene, Cudi included commissioned skits featuring Mike Judge voicing the title characters of his 90's animated sitcom, Beavis and Butt-Head.",
+        "date": "12/04/2015"
+      },
+      {
+        "type": "Album",
+        "title": "Passion, Pain & Demon Slayin'",
+        "content": "Passion, Pain & Demon Slayin' is the upcoming sixth studio album by American recording artist Kid Cudi. The album is scheduled to be released through Republic Records and Cudi's Wicked Awesome Records imprint. It succeeds Cudi's alternative rock album Speedin' Bullet 2 Heaven (2015). The album features production from Dot da Genius, Mike Dean, Mike Will Made It and Plain Pat, along with guest appearances from André 3000, Travis Scott, Pharrell Williams and Willow Smith. The album was preceded by the lead singles, \"Frequency\" and \"Surfin'\".",
+        "date": "09/30/2016"
+      }
+    ]
+  },
 ]
 
 
