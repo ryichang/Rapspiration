@@ -81,6 +81,8 @@ class RapTimeline extends Component {
 		console.log("CURRENT INDEX", this.state.value)
 		return(
 			<div>
+				{/* <div className="col-md-2"></div> */}
+				{/* <div className="col-md-8"> */}
 				<div style={{ width: '100%', height: '100px', margin: '0 auto' }} className="col-md-12 RapTimeline">
 					<HorizontalTimeline
 						index={this.state.value}
@@ -97,6 +99,9 @@ class RapTimeline extends Component {
 						}}
 					/>
 				</div>
+				{/* </div>
+				<div className="col-md-2"></div> */}
+
 				<div className="col-md-4 RapTimelineContent">
 					<SwipeableViews
 						index={0}

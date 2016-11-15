@@ -13,6 +13,11 @@
     src: url("../font/BFTinyHand-Regular.otf");
 }
 
+@font-face {
+  font-family:  ocr-b-std;
+  src: url("../font/OCR B Std Regular.otf");
+}
+
 html,
 body {
   /*background-image: linear-gradient(205deg,rgba(235,103,105,1),#F9BEBD);*/
@@ -46,7 +51,8 @@ body {
     border-left: 1px solid #2d2d2d;*/
 }
 
-/*.container {
+/*
+.container-fluid {
   display: flex;
   padding-top: 48px;
   width: 100%;
@@ -321,7 +327,7 @@ h2 {
 }
 
 .RapContent {
-  max-height: 480px;
+  max-height: 500px;
 }
 
 .highlight {
