@@ -206,6 +206,71 @@ module.exports =
       }
     ]
   },
+  { "id": 4,
+    "artistId": "4",
+    "category": [
+      {
+        "type": "Bio",
+        "title": "Birthday",
+        "content": "Aubrey Drake Graham was born on October 24, 1986, known simply as Drake, is a Canadian rapper, singer, songwriter, record producer, and actor. Drake initially gained recognition as an actor on the teen drama television series Degrassi: The Next Generation in the early 2000s. Intent on pursuing a career as a rapper, he departed the series in 2007 following the release of his debut mixtape, Room for Improvement. He released two further independent projects, Comeback Season and So Far Gone, before signing to Lil Wayne's Young Money Entertainment in June 2009.",
+        "date": "10/24/1986"
+      },
+      {
+        "type": "Album",
+        "title": "So Far Gone",
+        "content": "So Far Gone is the debut extended play by Canadian hip hop recording artist Drake. It was released on September 15, 2009, by OVO, Young Money Entertainment, Cash Money Records and Universal Motown. This is his reissued project from his third mixtape that was released earlier on February 13, 2009. This EP features five tracks from the mixtape, with the inclusions of containing two new songs. The EP features guest appearances from Trey Songz, Lil Wayne, Bun B and Young Jeezy. The EP was supported by three singles: \"Best I Ever Had\", \"Successful\" featuring Trey Songz and Lil Wayne, and \"I'm Goin' In\" featuring . In April 2010, the EP won the Rap Recording of the Year at the 2010's Juno Awards.",
+        "date": "09/15/2009"
+      },
+      {
+        "type": "Album",
+        "title": "Thank Me Later",
+        "content": "Thank Me Later is the debut studio album by Canadian rapper Drake. It was released on June 15, 2010, by Aspire Music Group, Young Money Entertainment, Cash Money Records, and Universal Motown Records. Production for the album took place at various recording studios during 2009 to 2010 and was mostly produced by longtime collaborators Noah \"40\" Shebib and Boi-1da. It also featured contributions from Timbaland, Swizz Beatz, Nicki Minaj, Lil Wayne, The-Dream, and Kanye West, among others. Thank Me Later has a languorous, ambient production that incorporates moody synthesizers, sparse beats, obscured keyboards, minor keys, and subtle arrangements. Thematically, the album focuses on Drake's introduction to fame and his romances over the course of confessional, club-oriented, and sexual songs. Drake's emotionally transparent, self-deprecating lyrics are delivered in both rapped and subtly sung verses, and explore feelings of doubt, insecurity, and heartbreak.",
+        "date": "06/15/2010"
+      },
+      {
+        "type": "Album",
+        "title": "Take Care",
+        "content": "Take Care is the second studio album by Canadian hip hop recording artist Drake. It was released on November 15, 2011, by Young Money Entertainment, Cash Money Records and Republic Records. It serves as a follow-up to his debut album Thank Me Later (2010). Recording sessions took place from 2010 to 2011, with production that was primarily handled by frequent collaborator Noah \"40\" Shebib, alongside T-Minus, The Weeknd, Boi-1da, Just Blaze, Jamie xx and Drake himself, among others. For this album, the recording was more cohesive than Drake's debut album. While expanding the sonic aesthetic from his debut album, Take Care features an atmospheric sound that was characterized by a low-key musical elements and incorporates R&B, pop, electronica and post-dubstep styles. Drake's lyrics mostly eschew boastful raps for introspective lyrics that deals with topics such as failed romances, relationship with friends and family, growing wealth and fame, concerns about leading a hollow life, and despondency. The album was noted by music writers for its minimalist R&B elements, existential subject matter, conflicted lyrics, and Drake's alternately sung and rapped vocals. Labeling as one of the most anticipated music releases in 2011, Take Care has experienced some several delays to its release date and some subsequent online leakage, only nine days before its scheduled release.",
+        "date": "11/15/2011"
+      },
+      {
+        "type": "Album",
+        "title": "Nothing Was the Same",
+        "content": "Nothing Was the Same is the third studio album by Canadian recording artist Drake. It was released on September 24, 2013, by OVO Sound, Young Money Entertainment, Cash Money Records and Republic Records. Work on the record began in 2012 and continued through 2013. As its executive producer, Drake enlisted collaborators including 2 Chainz, Big Sean, Jay Z, Jhené Aiko and Sampha to appear as guest appearances on the album. The album's production was primarily handled by 40 and other OVO Sound producers; Boi-1da, Mike Zombie, Majid Jordan and Nineteen85, among others such as, Detail, Key Wane, Hudson Mohawke and Jake One.",
+        "date": "09/24/2013"
+      },
+      {
+        "type": "Album",
+        "title": "Views",
+        "content": "Views is the fourth studio album by Canadian rapper Drake. It was released on April 29, 2016, by Young Money Entertainment, Cash Money Records and Republic Records. Recording sessions took place between 2014 and 2016, with the production that was primarily handled by his longtime and frequent collaborator 40, alongside with each of these several producers, including Nineteen85, Maneesh Bidaye, Kanye West and Jordan Ullman, among others. The album was supported by the five singles: \"Hotline Bling\", \"One Dance\" featuring Wizkid and Kyla, \"Pop Style\" featuring The Throne, \"Controlla\" and \"Too Good\" featuring Rihanna. Views was met with lukewarm reviews from critics, many of whom found it to be an overlong retread of Drake's previous work. The album remained at number one on the US Billboard 200 for 13 non-consecutive weeks. \"One Dance\" became Drake's first Billboard Hot 100 number-one single as a lead artist, spending 10 weeks at number one. As of August 2016, the album has sold 1.4 million copies in the United States. Views became the first album to accumulate one-billion streams on Apple Music.",
+        "date": "04/29/2016"
+      },
+      {
+        "type": "Mixtape",
+        "title": "If You're Reading This It's Too Late",
+        "content": "If You're Reading This It's Too Late is the fourth mixtape by Canadian recording artist Drake. It was released through the iTunes Store without prior announcement on February 13, 2015, by Cash Money Records. The physical edition of the project was released by Cash Money Records; as well as Young Money Entertainment, OVO Sound and Republic Records. There is a debate upon whether this project is a mixtape or a studio album, as it was also released commercially through his record label, while Drake himself referred to the project as a mixtape.",
+        "date": "02/13/2015"
+      },
+      {
+        "type": "Mixtape",
+        "title": "What a Time to Be Alive",
+        "content": "What a Time to Be Alive is a collaborative mixtape by hip hop recording artists Drake and Future. It was released on September 20, 2015, by Young Money Entertainment, Cash Money Records, Epic Records, Republic Records, OVO Sound, and Freebandz. What a Time to Be Alive was supported by Drake and Future's previous collaboration on the single \"Where Ya At\". As friends, they originally planned to record a mixtape together earlier in the year, however, the project never fully materialized. However, during recording sessions for \"Where Ya At\", the duo began working on the project, beginning in July. The mixtape was extensively produced by Metro Boomin, as well as also being produced by Southside, Boi-1da, and 40, among others. It was released on the iTunes Store and Apple Music, and debuted at number one on the US Billboard 200.",
+        "date": "09/20/2015"
+      },
+      {
+        "type": "Mixtape",
+        "title": "Room for Improvement",
+        "content": "Room for Improvement is the first official mixtape from Canadian rapper Drake. It was self-released in 2006. The mixtape was originally intended for sale only and had sold 6,000 copies in 2006.",
+        "date": "02/14/2006"
+      },
+      {
+        "type": "Mixtape",
+        "title": "Comeback Season",
+        "content": "Comeback Season is the second official mixtape from Canadian rapper Drake. In 2007, Comeback Season spawned a single and a music video for \"Replacement Girl\", featuring Trey Songz, that was executive produced by Terral \"T. Slack\" of BPE. Also in 2007, Drake became the first unsigned Canadian rapper to have his music video featured on BET when his first single, \"Replacement Girl\", was featured as the \"New Joint of the Day\" on April 30, 2007.",
+        "date": "09/01/2007"
+      },
+    ]
+  },
 ]
 
 
