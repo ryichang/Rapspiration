@@ -6,6 +6,7 @@ class Header extends Component {
     return (
       <div>
         <div className="sidebar">
+          {/* <h3 className="logoName">Rapspiration</h3> */}
           <a href="/" target="_blank">
             <img src={"../img/LogoSupreme.png"} className="logo"></img>
           </a>

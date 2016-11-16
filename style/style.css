@@ -86,10 +86,17 @@ img.scale { width: 100%; }*/
 
 .logo {
   top: -10px;
-  width: 200px;
+  width: 150px;
 	position: relative;
   left: 8px;
   /*image-rendering: auto;*/
+}
+
+.logoName {
+  font-family: "acta-poster",sans-serif;
+  font-style: italic;
+  font-size: 30px;
+  margin-left: 10px;
 }
 
 #top-spacer {

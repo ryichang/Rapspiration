@@ -18,5 +18,10 @@ module.exports =
     "id": 3,
     "artist": "Kid Cudi",
     "image": "../img/KidCudiPrint.png"
+  },
+  {
+    "id": 4,
+    "artist": "Drake",
+    "image": "../img/DrakePrint.png"
   }
 ]
