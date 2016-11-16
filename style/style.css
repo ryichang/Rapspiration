@@ -259,7 +259,8 @@ transform: scale(1);*/
 }
 
 h1 {
-  font-size: 2vw !important;
+  font-size:calc(12px + 1.5vw) !important;
+  /*font-size: 2vw !important;*/
   line-height: .8;
   margin: 0;
   font-weight: normal;
