@@ -81,8 +81,7 @@ class RapTimeline extends Component {
 		console.log("CURRENT INDEX", this.state.value)
 		return(
 			<div>
-				{/* <div className="col-md-2"></div> */}
-				{/* <div className="col-md-8"> */}
+				{/* <div className="gutter-copy numbers">{timeline.category[this.state.value].title}</div> */}
 				<div style={{ width: '100%', height: '100px', margin: '0 auto' }} className="col-md-12 RapTimeline">
 					<HorizontalTimeline
 						index={this.state.value}
@@ -102,7 +101,7 @@ class RapTimeline extends Component {
 				{/* </div>
 				<div className="col-md-2"></div> */}
 
-				<div className="col-md-4 RapTimelineContent">
+				<div className="col-md-4 col-sm-12 RapTimelineContent">
 					<SwipeableViews
 						index={0}
 						onChangeIndex={(value, previous) => {
@@ -116,6 +115,7 @@ class RapTimeline extends Component {
 							{timeline.category[this.state.value].content}
 						</div>
 				</SwipeableViews>
+					<div className="gutter-bottom">{timeline.category[this.state.value].title}</div>
 				</div>
 			</div>
 		);

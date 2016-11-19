@@ -16,7 +16,7 @@ module.exports =
   {
     "id": 2,
     "lyric": "You can do it too young love / Just watch what you do young love / And watch whose in your crew young love",
-    "songname": "You Can Do It Too",
+    "songName": "You Can Do It Too",
     "album": "In My Mind",
     "genius": "http://genius.com/Pharrell-williams-you-can-do-it-too-lyrics",
     "artistId": 2,
@@ -24,7 +24,7 @@ module.exports =
   {
     "id": 3,
     "lyric": "I'mma do just what I want / Looking ahead, no turning back / If I fall, if I die; know I lived it to the fullest",
-    "songname": "Pursuit of Happiness",
+    "songName": "Pursuit of Happiness",
     "album": "Man On The Moon: The End of Day",
     "genius": "http://genius.com/Kid-cudi-pursuit-of-happiness-lyrics",
     "artistId": 3,

@@ -77,6 +77,9 @@ class RapDetail extends Component {
     // console.log('RapDetail is loading', this.props.rapDetail.isInitialLoading)
 
 		return (
+      <div className="frame">
+        {/* <div className="gutter-copy">NYC - SF</div> */}
+        {/* <div className="gutter-copy numbers">E-3778Q-1</div> */}
       <div className="col-md-12 rapContainer">
         <RapTimeline
           timeline={currentTimeline}
@@ -84,6 +87,7 @@ class RapDetail extends Component {
           key={currentArtist.id}
         />
         <div className="col-md-4 col-sm-12 polaroid">
+          <div className="gutter-copy">E-3778Q-1</div>
           <div onClick={this.onClick}>
             <div className="polaroidPhoto">
               <RapImage image={currentArtist.image} />
@@ -99,14 +103,14 @@ class RapDetail extends Component {
 
           <RapLyric
             lyric={currentLyric.lyric}
+            songName={currentLyric.songName}
             artist={currentArtist.artist}
             key={currentLyric.id}/>
           {/* </ReactCSSTransitionGroup> */}
         </div>
-        {/* <div className="col-md-1">
 
-        </div> */}
       </div>
+    </div>
     );
 	}
 }

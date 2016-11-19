@@ -5,6 +5,7 @@ class RapLyric extends Component {
 	render() {
     const lyric = this.props.lyric
 		const artist = this.props.artist
+		const songName = this.props.songName
 		console.log('artist in RapLyric', artist)
 		// console.log('lyric is ', lyric)
     const lyricContent = lyric.split(' ');
@@ -16,6 +17,7 @@ class RapLyric extends Component {
 		return (
       <div className="col-md-12 rapLyric">
 				<div className="quote">
+					<div className="gutter-lyric">{songName}</div>
 					<h2>{lyric}</h2>
 					<a href={tweet} target="_blank">
 						<i className="fa fa-twitter twitter" aria-hidden="true"></i>

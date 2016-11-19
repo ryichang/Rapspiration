@@ -10,6 +10,9 @@ class Header extends Component {
           <a href="/" target="_blank">
             <img src={"../img/LogoGrey.png"} className="logo"></img>
           </a>
+          <div className="sidebarCenter">
+            <i className="fa fa-plug twitter" aria-hidden="true"></i>
+          </div>
             <div className="sidebarBottom">
               <i className="fa fa-twitter twitter" aria-hidden="true"></i>
               <i className="fa fa-instagram" aria-hidden="true"></i>
