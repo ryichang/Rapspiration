@@ -42,5 +42,12 @@ module.exports =
     "songName": "9",
     "genius": "http://genius.com/Drake-9-lyrics",
     "artistId": 4,
+  },
+  {
+    "id": 5,
+    "lyric": "If you can’t find somethin’ to live for, you best find somethin’ to die for",
+    "songName": "Something 2 Die 4",
+    "genius": "http://genius.com/2pac-something-2-die-4-lyrics",
+    "artistId": 5,
   }
 ]

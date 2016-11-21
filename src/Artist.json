@@ -23,5 +23,10 @@ module.exports =
     "id": 4,
     "artist": "Drake",
     "image": "../img/DrakePrint.png"
+  },
+  {
+    "id": 5,
+    "artist": "2pac Makaveli",
+    "image": "../img/TupacPrint.png"
   }
 ]
