@@ -28,5 +28,10 @@ module.exports =
     "id": 5,
     "artist": "2pac Makaveli",
     "image": "../img/TupacPrint.png"
+  },
+  {
+    "id": 6,
+    "artist": "Jay Z",
+    "image": "../img/JayZPrint.png"
   }
 ]
