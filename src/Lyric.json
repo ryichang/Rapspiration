@@ -52,9 +52,16 @@ module.exports =
   },
   {
     "id": 7,
-    "lyric": "I don't know how to sleep, I gotta eat, stay on my toes. Got a lot of beef, so logically, I prey on my foes.",
+    "lyric": "I don't know how to sleep, I gotta eat, stay on my toes / Got a lot of beef, so logically, I prey on my foes",
     "songName": "Hard Knock Life (Ghetto Anthem)",
     "genius": "http://genius.com/Jay-z-hard-knock-life-ghetto-anthem-lyrics",
     "artistId": 6,
+  },
+  {
+    "id": 8,
+    "lyric": "Knock these walls down, that’s my religion",
+    "songName": "These Walls",
+    "genius": "http://genius.com/Kendrick-lamar-these-walls-lyrics",
+    "artistId": 7,
   }
 ]

@@ -461,6 +461,59 @@ module.exports =
       },
     ]
   },
+  { "id": 7,
+    "artistId": "7",
+    "category": [
+      {
+        "type": "Bio",
+        "title": "Birth",
+        "content": "Kendrick Lamar Duckworth (born June 17, 1987), known professionally as Kendrick Lamar, is an American rapper and songwriter. He embarked on his musical career as a teenager under the stage name K-Dot, releasing a mixtape that garnered local attention and led to his signing with indie record label Top Dawg Entertainment (TDE). He began to gain major recognition in 2010, after his first retail release, Overly Dedicated. The following year, Lamar independently released his first studio album, Section.80, which included his debut single, \"HiiiPoWeR\". By that time, he had amassed a large Internet following and collaborated with several prominent artists in the hip hop industry, including The Game, Snoop Dogg, Busta Rhymes, and Lil Wayne. Lamar secured a major-label record deal with Aftermath and Interscope Records, in 2012. His major-label debut, good kid, m.A.A.d city, was released in October 2012 to critical success. The record contained the Top 40 singles \"Swimming Pools (Drank)\", \"Bitch, Don't Kill My Vibe\", and \"Poetic Justice\". It debuted at number two on the U.S. Billboard 200 chart and was later certified platinum by the Recording Industry Association of America (RIAA). Preceded by the Grammy Award-winning single \"i\", Lamar released his third album To Pimp a Butterfly, in 2015 to universal acclaim. The album drew on free jazz, funk, soul, and spoken word, and debuted atop the charts in the U.S. and the UK. It was nominated at the 58th Grammy Awards for Album of the Year and won Best Rap Album. In 2016, Lamar released untitled unmastered., a collection of unreleased demos that originated during the recording sessions for Butterfly. Lamar has received wide acclaim and a number of accolades over the course of his career, including seven Grammy Awards. In early 2013, MTV named Lamar the number one \"Hottest MC in the Game\", on their annual list. Time named Lamar one of the 100 most influential people in the world in 2016. Aside from his solo career, Lamar is also known as a member of the West Coast hip hop supergroup Black Hippy, alongside his TDE label-mates and fellow South Los Angeles-based rappers Ab-Soul, Jay Rock and Schoolboy Q.",
+        "date": "06/17/1987"
+      },
+      {
+        "type": "Mixtape",
+        "title": "C4",
+        "content": "In 2004, at the age of 16, Lamar released his first full-length project, a mixtape titled Youngest Head Nigga in Charge (Hub City Threat: Minor of the Year), under the pseudonym K-Dot. The mixtape was released under Konkrete Jungle Muzik and garnered local recognition for Lamar. The mixtape led to Lamar securing a recording contract with Top Dawg Entertainment (TDE), a newly founded indie record label, based in Carson, California. He began recording material with the label and subsequently released a 26 track mixtape two years later, titled Training Day (2005). Throughout 2006 and 2007, Lamar would appear alongside other up-and-coming West Coast rappers, such as Jay Rock and Ya Boy, as opening acts for veteran West Coast rapper The Game. Under the moniker K-Dot, Lamar was also featured on The Game's songs \"The Cypha\" and \"Cali Niggaz\". C4 is the third solo mixtape by American hip hop recording artist K-Dot. It was released in 2009 under Top Dawg Entertainment (TDE). The mixtape contains 17 tracks and includes guest appearances from Lamar's TDE label-mates Ab-Soul, Punch, Jay Rock and BO. The mixtape was heavily inspired by Lil Wayne’s 2008 album Tha Carter III, composed mostly of freestyles over instrumentals from Wayne’s album, in addition to a number of original tracks.",
+        "date": "1/30/2009"
+      },
+      {
+        "type": "Extended Play",
+        "title": "The Kendrick Lamar EP",
+        "content": "The Kendrick Lamar EP is the debut extended play (EP) by American hip hop recording artist Kendrick Lamar, released as a free digital download on December 31, 2009, by Top Dawg Entertainment (TDE). The EP features guest appearances from Angela McCluskey, Ab-Soul, JaVonte, Jay Rock, BJ the Chicago Kid, Punch, Schoolboy Q and Big Pooh. The EP's production was handled by Sounwave, Black Milk, Jake One, Q-Tip and Wyldfire, among others. The free-download EP premiered exclusively on online mixtape distribution platform DatPiff and has since then been downloaded over 100,000 times on the website earning a gold certification status.",
+        "date": "12/31/2009"
+      },
+      {
+        "type": "Mixtape",
+        "title": "Overly Dedicated",
+        "content": "Overly Dedicated (stylized O(verly) D(edicated) and often referred to as O.D.) is the fifth mixtape by American hip hop recording artist Kendrick Lamar, released on September 14, 2010, via Top Dawg Entertainment. The album features guest appearances from Dash Snow, Jhené Aiko, Schoolboy Q, Ab-Soul, Ash Riser, Dom Kennedy and Murs, among others. The album's production was handled by several TDE in-house producers, including King Blue, Sounwave, Tae Beast and Willie B; other producers such as Tommy Black, Drop, Jairus \"J-Mo\" Mozee, and Wyldfyer, also contributed production. As of October 2012, the mixtape has sold a total of 12,000 copies.",
+        "date": "09/14/2010"
+      },
+      {
+        "type": "Album",
+        "title": "Section.80",
+        "content": "Section.80 is the debut studio album by American rapper Kendrick Lamar. It was released on July 2, 2011, by Top Dawg Entertainment. The album features guest appearances from GLC, Colin Munroe, Ashtrobot, BJ the Chicago Kid, Schoolboy Q, Ab-Soul and vocals from late singer-songwriter Alori Joh. The production was mainly handled by Top Dawg in-house producers from production group Digi+Phonics, along with THC, Tommy Black, Wyldfyer, Terrace Martin and J. Cole. The concept album features lyrical themes delivered by Lamar such as racism and medication tolerance. The album's lead single, \"HiiiPoWeR\" was released on April 12, 2011. Section.80 received generally positive reviews from critics. The album debuted with 5,000 copies in the United States, based upon digital downloads within less than a week, debuting at number 113 on the Billboard 200, with minimal mainstream media promotion and coverage – however, some sources suggest the album entered at number 104. Within a two-week period, the album sold in total of 9,000 copies in the United States. As of February 2014, Section.80 has sold 130,000 copies domestically.",
+        "date": "07/02/2011"
+      },
+      {
+        "type": "Album",
+        "title": "Good Kid, M.A.A.D City",
+        "content": "Good Kid, M.A.A.D City (stylized as good kid, m.A.A.d city) is the second studio album by American rapper Kendrick Lamar. The album was released on October 22, 2012, by Top Dawg Entertainment, Aftermath Entertainment, and was distributed by Interscope Records. The album serves as Lamar's major label debut, after his signing to Aftermath and Interscope in early 2012. It was preceded by the release of Kendrick's debut studio album Section.80 (2011), released exclusively through the iTunes Store as an independent album. The album was recorded mostly at several studios in California, with producers such as Dr. Dre, Just Blaze, Pharrell Williams, Hit-Boy, Scoop DeVille, Jack Splash and T-Minus, among others, contributing to the album. Billed as a \"short film by Kendrick Lamar\" on the album cover, the concept album follows the story of Lamar's teenage experiences in the drug-infested streets and gang lifestyle of his native Compton. Good Kid, M.A.A.D City received widespread acclaim from critics, who praised its thematic scope and Lamar's lyrics. It earned Lamar four Grammy Award nominations at the 56th Grammy Awards, including Album of the Year. The album debuted at number two on the Billboard 200 chart, selling 242,000 copies in its first week – earning the highest first-week hip hop album sales of 2012 from a male artist, along with the best-selling debut from a male artist of the year. It became Lamar's first album to enter the UK Albums Chart, peaking at number 16, and entering the UK R&B Albums Chart at number two. The album was also named to many end-of-the-year lists, often topping them. It was later certified Platinum by the Recording Industry Association of America (RIAA) in August 2013. By March 2015, the album had sold 1,400,000 copies domestically, according to Nielsen SoundScan. The album's release was supported by five singles – \"The Recipe\" featuring Dr. Dre, \"Swimming Pools (Drank)\", \"Backseat Freestyle\", \"Poetic Justice\" featuring Drake, and \"Bitch, Don't Kill My Vibe\". All five singles received varied chart success. Lamar also went on a world tour between May and August 2013, featuring the other members of the hip hop collective, Black Hippy.",
+        "date": "10/22/2012"
+      },
+      {
+        "type": "Album",
+        "title": "To Pimp a Butterfly",
+        "content": "To Pimp a Butterfly is the third studio album by American rapper Kendrick Lamar. It was released on March 15, 2015, by Top Dawg Entertainment, Aftermath Entertainment and Interscope Records. The album was recorded in studios throughout the United States, with production from Sounwave, Terrace Martin, Taz \"Ti$a\" Arnold, Thundercat, Rahki, LoveDragon, Flying Lotus, Pharrell Williams, Boi-1da, and several other high-profile hip hop producers, as well as executive production from Dr. Dre and Anthony \"Top Dawg\" Tiffith. The album incorporates elements of free jazz, funk, soul, spoken word, and the avant-garde and explores a variety of political and personal themes concerning African-American culture, racial inequality, depression, and institutional discrimination. To Pimp a Butterfly debuted atop the Billboard 200 and received widespread acclaim from critics, who praised its musical scope and the social relevance of Lamar's lyrics. Additionally, it was ranked as the best album of 2015 by many publications, including Rolling Stone, Billboard and Pitchfork. It was nominated for Album of the Year and won Best Rap Album at the 58th Grammy Awards. Its singles \"i\" (in 2015) and \"Alright\" (in 2016) each won Grammys for Best Rap Song and Best Rap Performance, with the latter also nominated for Song of the Year. Additionally, \"These Walls\" won Best Rap/Sung Collaboration. The album was certified Platinum by the Recording Industry Association of America (RIAA). By March 2016, the album had sold 850,000 copies in the United States, and over 1 million copies worldwide. The album's release was supported by five singles – \"i\", \"The Blacker the Berry\", \"King Kunta\", \"Alright\" and \"These Walls\" featuring Bilal and Anna Wise. All five singles received varied chart success. Lamar also went on the Kunta's Groove Sessions Tour, which included eight shows in eight cities, in late 2015 to early 2016.",
+        "date": "03/15/2015"
+      },
+      {
+        "type": "Album",
+        "title": "Untitled Unmastered",
+        "content": "Untitled Unmastered (stylized as untitled unmastered.) is a compilation album by American hip hop recording artist Kendrick Lamar. It was released on March 4, 2016, by Top Dawg Entertainment, Aftermath Entertainment and Interscope Records. It consists of previously unreleased demos that originated during the recording of Lamar's album To Pimp a Butterfly (2015), continuing that work's exploration of politically-charged and psychological themes, as well as its experimentation with free jazz, soul, avant-garde, and funk styles. Upon its release, the compilation album received acclaim from music critics, and it debuted atop the US Billboard 200.",
+        "date": "03/04/2016"
+      },
+    ]
+  },
 ]
 
 
