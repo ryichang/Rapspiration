@@ -38,5 +38,10 @@ module.exports =
     "id": 7,
     "artist": "Kendrick Lamar",
     "image": "../img/KendrickPrint.png"
+  },
+  {
+    "id": 8,
+    "artist": "Eminem",
+    "image": "../img/EminemPrint.png"
   }
 ]

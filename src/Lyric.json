@@ -63,5 +63,12 @@ module.exports =
     "songName": "These Walls",
     "genius": "http://genius.com/Kendrick-lamar-these-walls-lyrics",
     "artistId": 7,
+  },
+  {
+    "id": 9,
+    "lyric": "The moment, you own it, you better never let it go / You only get one shot, do not miss your chance to blow",
+    "songName": "Lose Yourself",
+    "genius": "http://genius.com/Eminem-lose-yourself-lyrics",
+    "artistId": 8,
   }
 ]

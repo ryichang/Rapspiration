@@ -579,7 +579,11 @@ h2 {
     color: #F9BEBD;
     animation: fadeIn 2s;
 }
-
+/*
+.gutter-lyric:hover{
+  animation: rubberDisco 1s infinite;
+  cursor: pointer;
+}*/
 
 #info-button {
     width: 42px;
