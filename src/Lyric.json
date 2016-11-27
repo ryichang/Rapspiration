@@ -70,5 +70,12 @@ module.exports =
     "songName": "Lose Yourself",
     "genius": "http://genius.com/Eminem-lose-yourself-lyrics",
     "artistId": 8,
+  },
+  {
+    "id": 10,
+    "lyric": "I'm out for Presidents to represent me",
+    "songName": "The World is Yours",
+    "genius": "http://genius.com/Nas-the-world-is-yours-lyrics",
+    "artistId": 9,
   }
 ]
