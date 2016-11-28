@@ -14,7 +14,9 @@ class Header extends Component {
             <i className="fa fa-plug twitter" aria-hidden="true"></i>
           </div>
             <div className="sidebarBottom">
+              <a href="https://twitter.com/RxNeu" target="_blank">
               <i className="fa fa-twitter twitter" aria-hidden="true"></i>
+              </a>
               <i className="fa fa-instagram" aria-hidden="true"></i>
             </div>
         </div>
