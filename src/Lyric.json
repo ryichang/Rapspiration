@@ -77,5 +77,12 @@ module.exports =
     "songName": "The World is Yours",
     "genius": "http://genius.com/Nas-the-world-is-yours-lyrics",
     "artistId": 9,
+  },
+  {
+    "id": 11,
+    "lyric": "This mornin I woke up on my good side / Life is just a race against time so have a good time",
+    "songName": "My Heart Races On",
+    "genius": "http://genius.com/Lil-wayne-my-heart-races-on-lyrics",
+    "artistId": 10,
   }
 ]
