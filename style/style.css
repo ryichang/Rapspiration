@@ -603,3 +603,40 @@ h2 {
   animation: rubberDisco 1s infinite;
   cursor: pointer;
 }
+
+.modal{
+  margin-top: 200px;
+}
+.modal-header{
+  background: rgba(70,70,70,1) !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+.modal-body{
+  background: rgba(70,70,70,1) !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+.modal-footer{
+  background: rgba(70,70,70,1) !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+.modal-title{
+  font-size:calc(12px + 1.5vw) !important;
+  /*font-size: 2vw !important;*/
+  line-height: .8;
+  margin: 0;
+  font-weight: normal;
+  color: rgba(250,215,123,1);
+  font-family: 'Economica', sans-serif !important;
+}
+
+.close{
+  color: rgba(255,255,255,1)!important;
+}
+
+.close:hover {
+  animation: rubberDisco 1s infinite;
+  cursor: pointer;
+}

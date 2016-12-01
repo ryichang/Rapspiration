@@ -7,6 +7,9 @@ import RapArtist from './RapArtist';
 import RapLyric from './RapLyric';
 import RapTimeline from './RapTimeline';
 
+
+
+
 // import RapCard from './RapCard';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import { fetchNewLyric, fetchNewArtist, fetchNewTimeline, showInitialLoading } from '../actions/index';
@@ -15,8 +18,11 @@ import { fetchNewLyric, fetchNewArtist, fetchNewTimeline, showInitialLoading } f
 class RapDetail extends Component {
   constructor(props)  {
     super(props);
-  this.props.showInitialLoading(true)
+    this.props.showInitialLoading(true)
     // this.onClick = this.onClick.bind(this);
+    // this.state = {
+    //   showModal: true
+    // }
   }
 
   componentDidMount() {
@@ -50,6 +56,38 @@ class RapDetail extends Component {
     // console.log("Image Clicked");
     this.props.fetchNewLyric()
   }
+
+
+  // var Hello = React.createClass({
+  // getInitialState() {
+  //   return { showModal: true };
+  // },
+  //
+  // close() {
+  //   this.setState({ showModal: false });
+  // },
+  //
+  // open() {
+  //   this.setState({ showModal: true });
+  // },
+  //   render: function() {
+  //   	return (
+  //     <div>
+  //       <ReactBootstrap.Modal show={this.state.showModal} onHide={this.close}>
+  //         <ReactBootstrap.Modal.Header closeButton>
+  //           <ReactBootstrap.Modal.Title>Modal heading</ReactBootstrap.Modal.Title>
+  //         </ReactBootstrap.Modal.Header>
+  //         <ReactBootstrap.Modal.Body>
+  //           <h4>Text in a modal</h4>
+  //         </ReactBootstrap.Modal.Body>
+  //         <ReactBootstrap.Modal.Footer>
+  //           <ReactBootstrap.Button onClick={this.close}>Close</ReactBootstrap.Button>
+  //         </ReactBootstrap.Modal.Footer>
+  //       </ReactBootstrap.Modal>
+  //     </div>
+  //     )
+  //   }
+  // });
 
 	render() {
     // const currentRap = this.props.raps.currentRap;
