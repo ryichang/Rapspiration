@@ -55,7 +55,6 @@ class Header extends Component {
               <i className="fa fa-instagram" aria-hidden="true"></i>
             </div>
         </div>
-        
         {/* <div id="top-spacer"></div> */}
       </div>
     );

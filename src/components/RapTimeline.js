@@ -112,7 +112,7 @@ class RapTimeline extends Component {
 						resistance>
 						<div className="RapContent">
 							<div className="timelineCategory"><h1>{timeline.category[this.state.value].type}</h1></div>
-							{timeline.category[this.state.value].content}
+							<div className="timelineContent">{timeline.category[this.state.value].content}</div>
 						</div>
 				</SwipeableViews>
 					<div className="gutter-bottom">{timeline.category[this.state.value].title}</div>
