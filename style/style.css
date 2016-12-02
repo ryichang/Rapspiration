@@ -491,7 +491,8 @@ h2 {
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
-    .sidebarBottom { display: none;}
+    .sidebarBottom { display: none; }
+    .gutter-lyric { display: none; }
 }
 
 .frame, .frame-no-border {
@@ -591,7 +592,7 @@ h2 {
 }
 
 .gutter-lyric {
-    top: 280px;
+    top: 350px;
     left: 40px;
     font-size: 20px;
     font-weight: 500;
@@ -695,6 +696,9 @@ h2 {
     width: 5.625rem;
     height: 5.625rem;
     margin: 10px;
+    -webkit-animation: bounceIn 1s, fadeIn 2s;
+    animation: bounceIn 1s, fadeIn 2s;
+    transition: bounceIn 1s, fadeIn 2s;
 }
 
 .btn {
@@ -722,6 +726,11 @@ a:hover {
 }
 
 a:focus {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+
+a:visited {
   color: #000 !important;
   text-decoration: none !important;
 }
