@@ -84,5 +84,12 @@ module.exports =
     "songName": "My Heart Races On",
     "genius": "http://genius.com/Lil-wayne-my-heart-races-on-lyrics",
     "artistId": 10,
+  },
+  {
+    "id": 12,
+    "lyric": "They say that dreams come true/ And when they do, that there's a beautiful thing",
+    "songName": "Intro (2014 Forest Hills Drive)",
+    "genius": "http://genius.com/J-cole-intro-2014-forest-hills-drive-lyrics",
+    "artistId": 11,
   }
 ]

@@ -53,5 +53,10 @@ module.exports =
     "id": 10,
     "artist": "Lil Wayne",
     "image": "../img/LilWaynePrint.png"
+  },
+  {
+    "id": 11,
+    "artist": "J. Cole",
+    "image": "../img/JColePrint.png"
   }
 ]

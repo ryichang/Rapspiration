@@ -54,8 +54,8 @@ body {
 
 .container-fluid {
   /*display: flex;*/
-  /*padding-top: 48px;*/
-  width: 90%;
+  padding-top: 20px;
+  width: 80%;
   /*margin-left: 50px;
   margin-right: 50px;*/
 }
@@ -98,8 +98,40 @@ img.scale { width: 100%; }*/
   top: -10px;
   width: 150px;
 	position: relative;
-  left: 8px;
+  left: 10px;
   /*image-rendering: auto;*/
+}
+
+.closeButton {
+  font-family: 'Economica', sans-serif !important;
+  color: rgba(250,215,123,1);
+  background-color: rgba(70,70,70,1);
+  box-shadow: 0 .5rem 0 rgba(0,0,0,.2);
+  display: inline-block;
+  float: right;
+  vertical-align: bottom;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  padding: .625rem 1.875rem;
+  position: relative;
+  top: 0;
+  transition: all 150ms ease;
+  border: 3px solid #330 !important;
+  -webkit-animation: bounceIn 1s;
+  animation: bounceIn 1s;
+  transition: bounceIn 1s;
+}
+
+.closeButton:hover {
+  color: #fff !important;
+  cursor: pointer;
+}
+
+.modalLogo {
+  /*top: -5px;*/
+  width: 150px;
+  position: relative;
+  right: 0px;
 }
 
 .logoName {
@@ -302,14 +334,22 @@ h2 {
  -webkit-text-fill-color: transparent;
 }
 
+h4 {
+  text-align: left !important;
+  font-family: "ocr-b-std",sans-serif !important;
+  font-size: 14px !important;
+  height: 100%;
+}
+
 .fa-instagram {
   color: #FFF!important;
   padding: 5px;
-  font-size: 2vw !important;
+  /*font-size: 2vw !important;*/
+  font-size: 25px !important;
 }
 
 .fa-instagram:hover {
-  font-size: 2vw !important;
+  font-size: 25px !important;
   animation: rubberDisco 1s infinite;
   cursor: pointer;
 }
@@ -317,10 +357,10 @@ h2 {
 .fa-twitter {
   color: #FFF !important;
   padding: 5px;
-  font-size: 2vw !important;
+  font-size: 25px !important;
 }
 .fa-twitter:hover {
-  font-size: 2vw !important;
+  font-size: 25px !important;
   animation: rubberDisco 1s infinite;
   cursor: pointer;
 }
@@ -336,14 +376,14 @@ h2 {
   cursor: pointer;
 }
 
-.fa-plug {
+.fa-facebook {
   color: #FFF !important;
   padding: 5px;
-  font-size: 2vw !important;
+  font-size: 25px !important;
 }
 
-.fa-plug:hover {
-  font-size: 2vw !important;
+.fa-facebook:hover {
+  font-size: 25px !important;
   animation: rubberDisco 1s infinite;
   cursor: pointer;
 }
@@ -592,7 +632,7 @@ h2 {
 }
 
 .gutter-lyric {
-    top: 350px;
+    top: 370px;
     left: 40px;
     font-size: 20px;
     font-weight: 500;
@@ -635,14 +675,24 @@ h2 {
 }
 
 .modal{
-  margin-top: 200px;
+  margin-top: 150px;
+}
+
+.modal-backdrop.in {
+    opacity: .3 !important;
+}
+
+.modal-content{
+  background: rgba(70,70,70,1) !important;
 }
 .modal-header{
   background: rgba(70,70,70,1) !important;
   box-shadow: none !important;
   border: none !important;
+  padding-bottom: 0px !important;
 }
 .modal-body{
+  padding-top: 0px !important;
   background: rgba(70,70,70,1) !important;
   box-shadow: none !important;
   border: none !important;
@@ -673,19 +723,19 @@ h2 {
 
 .facebook-btn, .home-btn, .nav-icon, .twitter-btn {
   margin-top: 1rem;
-    width: 40px;
-    height: 40px;
-    line-height: 33px;
-    padding: 0;
-    background-size: 22px auto;
-    font-size: 1.4rem;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: hidden;
-    text-align: center;
-    margin-bottom: 0;
-    margin-left: 5px;
-    margin-right: 5px;
+  width: 40px;
+  height: 40px;
+  line-height: 33px;
+  padding: 0;
+  background-size: 22px auto;
+  font-size: 1.4rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 0;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .btn-round {
@@ -696,9 +746,9 @@ h2 {
     width: 5.625rem;
     height: 5.625rem;
     margin: 10px;
-    -webkit-animation: bounceIn 1s, fadeIn 2s;
-    animation: bounceIn 1s, fadeIn 2s;
-    transition: bounceIn 1s, fadeIn 2s;
+    -webkit-animation: bounceIn 1s;
+    animation: bounceIn 1s;
+    transition: bounceIn 1s;
 }
 
 .btn {
@@ -714,6 +764,7 @@ h2 {
     transition: all 150ms ease;
     border: 3px solid #330 !important;
 }
+
 
 a {
     color: #000 !important;
@@ -734,6 +785,7 @@ a:visited {
   color: #000 !important;
   text-decoration: none !important;
 }
+
 
 @media screen and (min-width: 48rem)
 .nav-contain {
