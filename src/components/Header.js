@@ -40,7 +40,7 @@ class Header extends Component {
                 <h4>As a Rap Genius enthusiast and born in the 90s, Hip-Hop has always been a huge part of my identity. The famous and infamuous have always served as vessels for public sentiment: they're praised amid prosperity and blamed for misfortune. Primitive societies faced one fundamental problem above all: they would be torn apart by conflict if they didn't have a way to stop it. So whenever plagues, disasters, or violent rivalries threatened the peace, it was beneficial for the society to place the entire blame on a single person, someone everybody could agree on: a scapegoat.</h4>
               </Modal.Body>
               <Modal.Footer>
-                <h4>Create by @RxNeu</h4>
+                <h4>Created by @RxNeu</h4>
                 <div className="nav-contain">
                   <div className="fa fa-facebook btn btn-round"><a href="/"></a></div>
                   <div className="fa fa-twitter btn btn-round"><a href="https://twitter.com/RxNeu" target="_blank"></a></div>
