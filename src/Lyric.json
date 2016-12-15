@@ -91,5 +91,12 @@ module.exports =
     "songName": "Intro (2014 Forest Hills Drive)",
     "genius": "http://genius.com/J-cole-intro-2014-forest-hills-drive-lyrics",
     "artistId": 11,
+  },
+  {
+    "id": 13,
+    "lyric": "Every day women and men become legends",
+    "songName": "Glory",
+    "genius": "http://genius.com/John-legend-glory-lyrics",
+    "artistId": 12,
   }
 ]
