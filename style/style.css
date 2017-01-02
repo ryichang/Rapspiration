@@ -414,6 +414,7 @@ h4 {
   }
 }
 
+
 .RapTimeline {
   font-family: 'Economica', sans-serif;
   /*cursor: url(../img/sliderCursor.png) 8 8, move !important;*/
@@ -747,9 +748,9 @@ h4 {
     width: 5.625rem;
     height: 5.625rem;
     margin: 10px;
-    -webkit-animation: bounceIn 1s;
+    /*-webkit-animation: bounceIn 1s;
     animation: bounceIn 1s;
-    transition: bounceIn 1s;
+    transition: bounceIn 1s;*/
 }
 
 .btn {
