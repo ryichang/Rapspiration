@@ -432,9 +432,9 @@ h4 {
 }
 
 .timelineContent {
-  background: -webkit-linear-gradient(rgba(255,255,255,1), rgb(236,209,202));
- -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;
+  /*background: -webkit-linear-gradient(rgba(255,255,255,1), rgb(236,209,202));*/
+ /*-webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;*/
 }
 
 .RapContent {
