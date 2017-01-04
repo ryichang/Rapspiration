@@ -1161,4 +1161,32 @@ module.exports =
     "genius": "http://genius.com/J-cole-love-yourz-lyrics",
     "artistId": 11,
   },
+  {
+    "id": 167,
+    "lyric": "Look, it's no time to chill I'm trynna get Mills / There's not time to chill I'm trynna build",
+    "songName": "Til' Infinity",
+    "genius": "http://genius.com/J-cole-til-infinity-lyrics",
+    "artistId": 11,
+  },
+  {
+    "id": 168,
+    "lyric": "Granted nine to five is how you survive / I ain't tryna survive, I'm tryna throw my Momma in rides",
+    "songName": "I Get Up",
+    "genius": "http://genius.com/J-cole-i-get-up-lyrics",
+    "artistId": 11,
+  },
+  {
+    "id": 169,
+    "lyric": "Granted nine to five is how you survive / I ain't tryna survive, I'm tryna throw my Momma in rides",
+    "songName": "I Get Up",
+    "genius": "http://genius.com/J-cole-i-get-up-lyrics",
+    "artistId": 11,
+  },
+  {
+    "id": 170,
+    "lyric": "Me I'm like a young Simba I can't wait to be the King / Witness the dream",
+    "songName": "Grown Simba",
+    "genius": "http://genius.com/J-cole-grown-simba-lyrics",
+    "artistId": 11,
+  },
 ]
