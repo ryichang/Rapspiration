@@ -107,7 +107,7 @@ img.scale { width: 100%; }*/
   color: rgba(250,215,123,1);
   background-color: rgba(70,70,70,1);
   box-shadow: 0 .5rem 0 rgba(0,0,0,.2);
-  display: inline-block;
+  display: inline-block !important;
   float: right;
   vertical-align: bottom;
   font-weight: 700;
@@ -315,6 +315,11 @@ transform: translateY(20%);
   max-width: 400px;
 }
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
 h1 {
   font-size: calc(1em + 2vmin) !important;
   /*font-size:calc(12px + 1.5vw) !important;*/
@@ -431,12 +436,12 @@ h4 {
   animation: slideInRight 1s, fadeIn 2s;
   margin-bottom: 20px;
 }
-
+/*
 .timelineContent {
   background: -webkit-linear-gradient(rgba(255,255,255,1), rgb(236,209,202));
  -webkit-background-clip: text;
  -webkit-text-fill-color: transparent;
-}
+}*/
 
 .RapContent {
   max-height: 500px;
@@ -636,7 +641,7 @@ h4 {
     /*top: 370px;*/
     top: 420px;
     left: 40px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     /*line-height: 40px;*/
     position: absolute;
@@ -691,7 +696,7 @@ h4 {
   background: rgba(70,70,70,1) !important;
   box-shadow: none !important;
   border: none !important;
-  padding-bottom: 0px !important;
+  padding-bottom: 50px !important;
 }
 .modal-body{
   padding-top: 0px !important;
@@ -703,6 +708,7 @@ h4 {
   background: rgba(70,70,70,1) !important;
   box-shadow: none !important;
   border: none !important;
+  margin-top: 20px;
 }
 .modal-title{
   font-size:calc(12px + 1.5vw) !important;
@@ -712,6 +718,20 @@ h4 {
   font-weight: normal;
   color: rgba(250,215,123,1);
   font-family: 'Economica', sans-serif !important;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  height: 50px;
+}
+.modal-credit{
+  position: absolute;
+   bottom: 20px;
+   left: 16px;
+}
+.modal-close{
+  position: absolute;
+   top: 15px;
+   right: 16px;
 }
 
 .close{
@@ -801,25 +821,10 @@ a:visited {
 }
 .nav-contain {
     text-align: right;
-    position: absolute;
+    position: fixed;
     width: 100%;
     bottom: 1rem;
     right: 0;
     z-index: 10;
     margin: 10px;
 }
-
-/*.twitter-btn {
-    overflow: hidden;
-    background-image: url(../img/twitter-icon.svg);
-}
-
-.home-btn {
-    overflow: hidden;
-    background-image: url(../img/home-icon.svg);
-}
-
-.facebook-btn {
-    overflow: hidden;
-    background-image: url(../img/facebook-icon.svg);
-}*/
