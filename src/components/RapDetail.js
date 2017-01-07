@@ -115,40 +115,79 @@ class RapDetail extends Component {
     // console.log('RapDetail is loading', this.props.rapDetail.isInitialLoading)
 
 		return (
-      <div className="frame">
-        {/* <div className="gutter-copy">NYC - SF</div> */}
-        {/* <div className="gutter-copy numbers">E-3778Q-1</div> */}
-      <div className="col-md-12 rapContainer">
-        <RapTimeline
-          timeline={currentTimeline}
-          artist={currentArtist.artist}
-          key={currentArtist.id}
-        />
-        <div className="col-md-4 col-sm-12 polaroid">
-          <div className="gutter-copy">E-3778Q-1</div>
-          <div onClick={this.onClick}>
-            <div className="polaroidPhoto">
-              <RapImage image={currentArtist.image} />
-            </div>
+      <div className="bgBlack centred-box frontSection">
+        <div className="leader-box">
+          <div className="leader-section leader-underlined">
+                <span className="tighter">R</span>APS
+                <div className="leader-box-to">
+                    MATTER
+                </div>
+                <div className="text-right">
+                  <div onClick={this.onClick}>
+                <RapArtist artist={currentArtist.artist} key={currentArtist.id}/>
+                  </div>
+                </div>
           </div>
-          <RapArtist artist={currentArtist.artist} key={currentArtist.id}/>
-        </div>
-        <div className="col-md-4 col-sm-12">
-          {/* <ReactCSSTransitionGroup
-            transitionName="example"
-            transitionEnterTimeout={500}
-          transitionLeaveTimeout={300}> */}
+          <RapTimeline
+                timeline={currentTimeline}
+                artist={currentArtist.artist}
+                key={currentArtist.id}
+              />
+          <div className="col-md-2"></div>
+          <div className="leader-section text-right">
+            {/* <span className="blocking">
+              East<br/>Room
+               <div className="col-md-4 col-sm-12"> */}
+              <RapLyric
+                    lyric={currentLyric.lyric}
+                    songName={currentLyric.songName}
+                    artist={currentArtist.artist}
+                    key={currentLyric.id}/>
+              {/* </div>
+            </span> */}
+            {/* <div className="textLarge leader-subtext text-left ">
+                    <p>We are a membership<br/>based co–op<br/>connecting work,<br/>leisure &amp; culture</p>
+                </div> */}
+          </div>
 
-          <RapLyric
-            lyric={currentLyric.lyric}
-            songName={currentLyric.songName}
-            artist={currentArtist.artist}
-            key={currentLyric.id}/>
-          {/* </ReactCSSTransitionGroup> */}
         </div>
-
       </div>
-    </div>
+    //   <div className="frame">
+    //     <div className="gutter-copy">NYC - SF</div>
+    //     <div className="gutter-copy numbers">E-3778Q-1</div>
+    //   <div className="col-md-12 rapContainer">
+    //     <RapTimeline
+    //       timeline={currentTimeline}
+    //       artist={currentArtist.artist}
+    //       key={currentArtist.id}
+    //     />
+    //
+    //     <div className="col-md-4 col-sm-12 polaroid">
+    //       <div className="gutter-copy">E-3778Q-1</div>
+    //       <div onClick={this.onClick}>
+    //         <div className="polaroidPhoto">
+    //           <RapImage image={currentArtist.image} />
+    //         </div>
+    //       </div>
+    //       <RapArtist artist={currentArtist.artist} key={currentArtist.id}/>
+    //     </div>
+    //
+    //     <div className="col-md-4 col-sm-12">
+    //       {/* <ReactCSSTransitionGroup
+    //         transitionName="example"
+    //         transitionEnterTimeout={500}
+    //       transitionLeaveTimeout={300}> */}
+    //
+    //       <RapLyric
+    //         lyric={currentLyric.lyric}
+    //         songName={currentLyric.songName}
+    //         artist={currentArtist.artist}
+    //         key={currentLyric.id}/>
+    //       {/* </ReactCSSTransitionGroup> */}
+    //     </div>
+    //
+    //   </div>
+    // </div>
     );
 	}
 }

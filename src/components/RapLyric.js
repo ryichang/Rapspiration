@@ -15,15 +15,17 @@ class RapLyric extends Component {
 
 
 		return (
-      <div className="col-md-12 rapLyric">
-				<div className="quote">
-					<div className="gutter-lyric">{songName}</div>
-					<h2>{lyric}</h2>
-					<a href={tweet} target="_blank">
+		  <div className="col-md-6 rapLyric">
+				<div className="quoteContainer">
+					<div className="quote">
+						<div className="gutter-lyric">{songName}</div>
+						<h2>{lyric}</h2>
+						<a href={tweet} target="_blank">
 						<i className="fa fa-twitter twitter" aria-hidden="true"></i>
-					</a>
+						</a>
+						</div>
 				</div>
-      </div>
+		  </div>
     );
 	}
 }

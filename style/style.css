@@ -14,9 +14,22 @@
 }
 
 @font-face {
-  font-family:  ocr-b-std;
+  font-family: ocr-b-std;
   src: url("../font/OCR B Std Regular.otf");
 }
+
+@font-face {
+  font-family: Nimbus;
+  src: url("../font/Nimbus.otf");
+}
+
+
+@font-face {
+  font-family: Tungsten;
+  src: url("../font/Tungsten-Book.otf");
+}
+
+
 
 html,
 body {
@@ -27,11 +40,15 @@ body {
   /*background-image: linear-gradient(120deg,rgba(235,103,105,1),rgb(80,0,180));*/
   /*background: rgb(235,103,105) !important;*/
   /*background: #F9BEBD !important;*/
-  background: rgba(70,70,70,1) !important;
+  /*background: linear-gradient(45deg, #fc43b3 0%,#ef2f33 100%) !important;*/
+  /*background: rgba(244,90,105,1) !important;*/
+  /*background: rgba(255,162,158,1) !important;*/
+  background-image: url("../img/stardust.png") !important;
+  /*background: rgba(70,70,70,1) !important;*/
   background-color: #000;
 /*background: linear-gradient(63deg, #32404c 0%, #32404c 46%, #746f85 46%, #746f85 50.5%, #9c708c 50.5%, #9c708c 55%, #a4657a 55%, #a4657a 59.5%, #cc7484 59.5%, #cc7484 64%, #b4695e 64%, #b4695e 71%, #ce7966 71%, #ce7966 100%);*/
   /*background-image: -webkit-linear-gradient(30deg, #000 50%, #ff6766 50%);*/
-  color: #ffffff !important;
+  color: #FFF !important;
   height: 100%;
   min-height: 1vh;
 }
@@ -136,7 +153,7 @@ img.scale { width: 100%; }*/
 
 .logoName {
   font-family: "acta-poster",sans-serif;
-  font-style: italic;
+  /*font-style: italic;*/
   font-size: 30px;
   margin-left: 10px;
 }
@@ -244,23 +261,28 @@ transform: scale(1);*/
 }
 
 .rapArtist {
-  padding-top: 10px;
-  padding-bottom: 5px;
-  font-family: 'TinyHand';
-  color: #000;
+  /*padding-top: 10px;
+  padding-bottom: 5px;*/
+  /*font-family: 'TinyHand';*/
+  /*color: #fff;*/
     /*font-family: 'Rubik', sans-serif;*/
   /*font-family: 'Covered By Your Grace', cursive;*/
+  float: right !important;
+  position: absolute !important;
+  top: -20px !important;
+  right: 0px !important;
+  color: rgba(254,57,85,1);
+  cursor: pointer;
 }
 
 .rapLyric {
   cursor: text;
-  /*font-family: 'Open Sans', sans-serif !important;*/
 	/*font-size: 4.5em;*/
-  font-family: 'Economica', sans-serif !important;
+  font-family: 'Tungsten', sans-serif !important;
   /*font-family: 'Nunito', sans-serif !important;*/
   /*font-family: 'Nixie One', cursive !important;*/
   /*font-family: Helvetica Neue,Helvetica,sans-serif;*/
-  display: block;
+  /*display: block;*/
   /*position: relative;*/
   /*top: 50%;*/
   padding-left: 50px !important;
@@ -271,19 +293,27 @@ transform: scale(1);*/
   /*color: rgb(252,195,20);*/
   color: rgba(250,215,123,1);
   animation: slideInLeft 1s, fadeIn 2s;
-  /*transform: translateY(-50%);*/
+  text-align:left;
   /*margin-top: 35px;*/
-
+  /*padding: 70px 0;*/
+  /*text-align: left;
+  display: flex;
+  align-items: center;*/
 }
 
 
-/*.quote{
+.quote{
   position: relative;
 top: 50%;
 -webkit-transform: translateY(10%);
 -ms-transform: translateY(20%);
 transform: translateY(20%);
-}*/
+}
+
+.quoteContainer{
+  max-height: 200px;
+  min-heigh: 200px;
+}
 
 .quote:before {
   font-family: Oswald;
@@ -291,10 +321,10 @@ transform: translateY(20%);
   content: "\201C";
   font-size: 80px;
   position: absolute;;
-  left: 0px;
-  top: -20px;
+  left: -100px;
+  top: -60px;
   color: #fff;
-  /*padding-left: 50px !important;*/
+  padding-left: 50px !important;
 }
 
 .quote:after {
@@ -303,8 +333,8 @@ transform: translateY(20%);
   content: "\201D";
   font-size: 80px;
   position: absolute;
-  right: -25px;
-  bottom: -30px;
+  right: -0px;
+  bottom: 80px;
   color: #fff;
 }
 
@@ -330,13 +360,14 @@ h1 {
 }
 
 h2 {
+  color: #fff !important;
   /*color: rgb(169,216,200);*/
   /*color: rgba(250,188,171,1);*/
   /*color: rgba(250,215,123,1);*/
   font-size: 3vw !important;
-  background: -webkit-linear-gradient(rgba(250,215,123,1), rgb(236,209,202));
+  /*background: -webkit-linear-gradient(rgba(250,215,123,1), rgb(236,209,202));
  -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;
+ -webkit-text-fill-color: transparent;*/
 }
 
 h4 {
@@ -422,16 +453,18 @@ h4 {
 
 .RapTimeline {
   font-family: 'Economica', sans-serif;
+  z-index: 9999;
   /*cursor: url(../img/sliderCursor.png) 8 8, move !important;*/
 }
 .RapTimelineContent {
   /*padding-top: 50px;*/
   text-align: left !important;
   /*font-family: 'Economica', sans-serif !important;*/
-   font-family: "ocr-b-std",sans-serif !important;
-  /*font-family: 'Nunito', sans-serif !important;*/
+  /*font-family: 'Tungsten', sans-serif !important;*/
+   /*font-family: "ocr-b-std",sans-serif !important;*/
+  font-family: 'Nunito', sans-serif !important;
   /*font-family: "museo-sans-rounded" !important;*/
-  font-size: 14px !important;
+  font-size: 16px !important;
   height: 100%;
   animation: slideInRight 1s, fadeIn 2s;
   margin-bottom: 20px;
@@ -444,8 +477,10 @@ h4 {
 }*/
 
 .RapContent {
-  max-height: 500px;
+  min-height: 200px;
+  max-height: 200px;
 }
+
 
 .highlight {
   text-align: left !important;
@@ -456,7 +491,7 @@ h4 {
 .highlight:before {
   content: "";
   position: absolute;
-  background-color: rgba(250,215,123,1);
+  background-color: rgba(0,0,0,1);
   height: 100%;
   width: 100%;
   z-index: -1;
@@ -469,6 +504,7 @@ h4 {
   -webkit-animation-delay: inherit;
           animation-delay: inherit;
 }
+
 .hl:before {
   content: "";
   position: absolute;
@@ -541,67 +577,6 @@ h4 {
     .gutter-lyric { display: none; }
 }
 
-.frame, .frame-no-border {
-    margin: 0 auto;
-    position: relative;
-    padding: 0px;
-    padding-bottom: 0;
-    width: 100%;
-}
-
-.frame {
-    min-height: 100%;
-}
-
-.frame-border-vert.left {
-    left: 40px;
-}
-
-.frame-border-vert {
-    width: 3px;
-    top: 40px;
-    bottom: 120px;
-}
-
-.frame-border-vert.right {
-    height: 2%;
-    right: 40px;
-}
-
-.frame-border-horiz.right-top {
-    width: 9%;
-    top: 40px;
-    right: 40px;
-    left: initial;
-}
-
-.frame-border-horiz {
-    height: 3px;
-    left: 40px;
-    right: 40px;
-}
-
-.frame-border-horiz.top {
-    width: 32%;
-    top: 38px;
-}
-
-.frame-border-vert.top-right {
-    top: initial;
-    right: 40px;
-    bottom: 120px;
-    height: 82%;
-}
-
-.frame-border-horiz.bottom {
-    bottom: 120px;
-}
-
-.frame-border {
-    background-color: #FFF;
-    position: absolute;
-}
-
 .gutter-copy {
     top: 280px;
     left: 40px;
@@ -635,17 +610,18 @@ h4 {
   transition: opacity 0.3s ease-out;
   color: #F9BEBD;
   animation: fadeIn 2s;
+  font-family: 'Tungsten', sans-serif !important;
 }
 
 .gutter-lyric {
     /*top: 370px;*/
-    top: 420px;
-    left: 40px;
-    font-size: 18px;
+    top: 200px;
+    left: -90px;
+    font-size: 30px;
     font-weight: 500;
-    /*line-height: 40px;*/
+    line-height: 40px;
     position: absolute;
-    letter-spacing: 0.445em;
+    letter-spacing: 0em;
     -webkit-transform-origin: 0 100%;
     transform-origin: 0 100%;
     -webkit-transform: rotate(270deg);
@@ -725,13 +701,13 @@ h4 {
 }
 .modal-credit{
   position: absolute;
-   bottom: 20px;
-   left: 16px;
+  bottom: 20px;
+  left: 16px;
 }
 .modal-close{
   position: absolute;
-   top: 15px;
-   right: 16px;
+  top: 15px;
+  right: 16px;
 }
 
 .close{
@@ -827,4 +803,83 @@ a:visited {
     right: 0;
     z-index: 10;
     margin: 10px;
+}
+
+.leader-box {
+    width: 92%;
+}
+
+.frontSection {
+    position: fixed;
+    z-index: 0;
+    height: 100vh;
+    min-height: 620px;
+    width: 100%;
+}
+
+.centred-box {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    display: flex;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.bgBlack {
+    background-color: #000;
+    color: #fff;
+}
+
+.leader-box .leader-section:first-child {
+    padding-bottom: 12vmin;
+}
+
+.leader-box .leader-section.leader-underlined {
+    border-bottom: 2vmin solid #fff;
+}
+
+.leader-box .leader-section {
+    position: relative;
+    font-size: 20vmin;
+    line-height: 16vmin;
+    letter-spacing: -2px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.leader-box .leader-section .leader-subtext {
+    position: absolute;
+    bottom: -1.5vmin;
+    left: 0;
+    font-size: 6vmin;
+    line-height: 6vmin;
+}
+
+.textLarge {
+    font-size: 25.6px;
+    line-height: 25.6px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }

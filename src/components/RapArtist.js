@@ -6,7 +6,7 @@ class RapArtist extends Component {
     const artist = this.props.artist
 		// console.log('artist is ', artist)
 		return (
-      <div className="col-md-12 rapArtist">
+      <div className="col-md-6 rapArtist">
         <h1>{artist}</h1>
       </div>
     );

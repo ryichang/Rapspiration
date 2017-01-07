@@ -55,7 +55,7 @@ class Header extends Component {
               </Modal.Footer>
             </Modal>
           </div>
-          {/* <h3 className="logoName">Rapspiration</h3> */}
+          {/* <h1 className="logoName">Rapsmatter</h1> */}
           <a href="/">
             <img src={"../img/LogoGrey.png"} className="logo"></img>
           </a>
