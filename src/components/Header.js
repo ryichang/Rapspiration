@@ -46,10 +46,10 @@ class Header extends Component {
                 <div className="modal-credit">
                 <h4>Created by @RxNeu</h4>
                 </div>
-                <div className="nav-contain">
+                {/* <div className="nav-contain">
                   <div className="fa fa-facebook btn btn-round"><a href="/"></a></div>
                   <div className="fa fa-twitter btn btn-round"><a href="https://twitter.com/RxNeu" target="_blank"></a></div>
-                </div>
+                </div> */}
                 {/* <img src={"../img/LogoGrey.png"} className="modalLogo"></img> */}
                 {/* <Button onClick={this.onClose}>Close</Button> */}
               </Modal.Footer>
@@ -61,8 +61,8 @@ class Header extends Component {
           </a>
           {/* <div className="sidebarCenter" onClick={this.onOpen}>
             <i className="fa fa-plug twitter" aria-hidden="true"></i>
-          </div>
-            <div className="sidebarBottom">
+          </div> */}
+            {/* <div className="sidebarBottom">
               <a href="https://twitter.com/RxNeu" target="_blank">
               <i className="fa fa-twitter twitter" aria-hidden="true"></i>
               </a>
@@ -70,9 +70,9 @@ class Header extends Component {
             </div> */}
         </div>
         <div className="nav-contain">
-          <div className="fa fa-facebook btn btn-round"><a href="/"></a></div>
+          {/* <div className="fa fa-facebook btn btn-round"><a href="/"></a></div>
           <div className="fa fa-twitter btn btn-round"><a href="https://twitter.com/RxNeu" target="_blank"></a></div>
-          <div className="fa fa-instagram btn btn-round"><a href=""  target="_blank"></a></div>
+          <div className="fa fa-instagram btn btn-round"><a href=""  target="_blank"></a></div> */}
           <div className="fa fa-eye btn btn-round" onClick={this.onOpen}><a href="#" ></a></div>
         </div>
 

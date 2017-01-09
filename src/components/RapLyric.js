@@ -19,10 +19,12 @@ class RapLyric extends Component {
 				<div className="quoteContainer">
 					<div className="quote">
 						<div className="gutter-lyric">{songName}</div>
-						<h2>{lyric}</h2>
-						<a href={tweet} target="_blank">
-						<i className="fa fa-twitter twitter" aria-hidden="true"></i>
-						</a>
+							<h2>{lyric}</h2>
+						<div className="rapTweet hidden-xs">
+							<a href={tweet} target="_blank">
+							<i className="fa fa-twitter twitter" aria-hidden="true"></i>
+							</a>
+						</div>
 						</div>
 				</div>
 		  </div>

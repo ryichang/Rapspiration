@@ -133,7 +133,8 @@ class RapDetail extends Component {
                 artist={currentArtist.artist}
                 key={currentArtist.id}
               />
-          <div className="col-md-2"></div>
+          <div className="col-md-2">
+          </div>
           <div className="leader-section text-right">
             {/* <span className="blocking">
               East<br/>Room
