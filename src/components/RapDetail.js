@@ -132,8 +132,16 @@ class RapDetail extends Component {
                 timeline={currentTimeline}
                 artist={currentArtist.artist}
                 key={currentArtist.id}
+                image={currentArtist.image}
               />
           <div className="col-md-2">
+            {/* <div className="col-md-4 col-sm-12">
+               <div onClick={this.onClick}>
+                 <div className="img-polaroid">
+                   <RapImage image={currentArtist.image} />
+                 </div>
+               </div>
+            </div> */}
           </div>
           <div className="leader-section text-right">
             {/* <span className="blocking">
@@ -143,7 +151,9 @@ class RapDetail extends Component {
                     lyric={currentLyric.lyric}
                     songName={currentLyric.songName}
                     artist={currentArtist.artist}
-                    key={currentLyric.id}/>
+                    key={currentLyric.id}
+                    image={currentArtist.image}
+                  />
               {/* </div>
             </span> */}
             {/* <div className="textLarge leader-subtext text-left ">

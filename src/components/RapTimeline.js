@@ -51,6 +51,7 @@ class RapTimeline extends Component {
 		// 		<div>loading...</div>
 		// 	)
 		// };
+		const image = this.props.image;
 		let timeline = this.props.timeline;
 		console.log('timeline in RapTimeline is', timeline)
 		if (!timeline){
@@ -100,8 +101,19 @@ class RapTimeline extends Component {
 				</div>
 				{/* </div>
 				<div className="col-md-2"></div> */}
+				<div className="col-md-1 col-sm-12">
+					 <div onClick={this.onClick}>
+						 <div className="img-polaroid">
+							 <div className="rapImage">
+				 				<div>
+				 					<img src={image} className="img-fluid"/>
+				 				</div>
+				       </div>
+						 </div>
+					 </div>
+				</div>
 
-				<div className="col-md-4 col-sm-12 RapTimelineContent">
+				<div className="col-md-5 col-sm-12 RapTimelineContent">
 					<SwipeableViews
 						index={0}
 						onChangeIndex={(value, previous) => {
@@ -122,6 +134,7 @@ class RapTimeline extends Component {
 					</div>
 				</div>
 			</div>
+
 		);
 			// albums.map((album, index) => {
 			// 	console.log('albums in map are', albums)
