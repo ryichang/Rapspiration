@@ -269,6 +269,12 @@ module.exports =
         "content": "Comeback Season is the second official mixtape from Canadian rapper Drake. In 2007, Comeback Season spawned a single and a music video for \"Replacement Girl\", featuring Trey Songz, that was executive produced by Terral \"T. Slack\" of BPE. Also in 2007, Drake became the first unsigned Canadian rapper to have his music video featured on BET when his first single, \"Replacement Girl\", was featured as the \"New Joint of the Day\" on April 30, 2007.",
         "date": "09/01/2007"
       },
+      {
+        "type": "Playlist",
+        "title": "More Life",
+        "content": "More Life (stylized as More Life: A Playlist By October Firm on the cover) is a musical project by Canadian rapper Drake, described by the artist as a playlist. It was released on March 18, 2017, by OVO Sound, Young Money Entertainment, Cash Money Records, and Republic Records. The playlist was supported by three singles: \"Fake Love\", \"Passionfruit\" and \"Free Smoke\". Production of More Life was handled by a variety of record producers, including 40, Frank Dukes, Boi-1da, Murda Beatz, T-Minus, Nineteen85, and Kanye West, among others. An ensemble of guest vocalists also appear, including Young Thug, Giggs, Skepta, Quavo, Travis Scott, 2 Chainz, Kanye West, Jorja Smith, Sampha and PartyNextDoor. The songs on More Life feature a broad range of genres, including hip hop, R&B, dancehall, grime, trap, Afrobeat, and pop. The playlist received widespread critical acclaim and debuted at number one on the Billboard 200, becoming his seventh consecutive number one album, while also breaking several streaming records.",
+        "date": "03/18/2017"
+      },
     ]
   },
   { "id": 5,
