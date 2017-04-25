@@ -6,6 +6,7 @@ import RapImage from './RapImage';
 import RapArtist from './RapArtist';
 import RapLyric from './RapLyric';
 import RapTimeline from './RapTimeline';
+import Loader from './Loader';
 
 
 
@@ -20,7 +21,7 @@ class RapDetail extends Component {
     super(props);
     this.props.showInitialLoading(true)
     // this.onClick = this.onClick.bind(this);
-    // this.state = {
+    // this.state = {f
     //   showModal: true
     // }
   }
@@ -100,9 +101,7 @@ class RapDetail extends Component {
 
     if (this.props.rapDetail.isInitialLoading) {
       return (
-        <div className="col-md-12 LoadingContainer">
-          <img src={"../img/intro.png"} className="LoadingIcon"></img>
-        </div>
+        <Loader />
       )
     }
 

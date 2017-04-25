@@ -532,6 +532,7 @@ h4 {
 .RapTimeline {
   font-family: 'Economica', sans-serif;
   z-index: 9999;
+  font-weight: 900;
   /*cursor: url(../img/sliderCursor.png) 8 8, move !important;*/
 }
 .RapTimelineContent {
@@ -978,4 +979,19 @@ p {
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
+}
+
+.loading {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	pointer-events: none;
+	font-size: 5em;
+	height: 2em;
+	width: 2em;
+	text-align: center;
+	line-height: 2em;
+	margin: -1em 0 0 -1em;
+	z-index: 9;
+  color: #fff;
 }

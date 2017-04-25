@@ -56,9 +56,9 @@ class Header extends Component {
             </Modal>
           </div>
           {/* <h1 className="logoName">Rapsmatter</h1> */}
-          <a href="/">
+          {/* <a href="/">
             <img src={"../img/LogoGrey.png"} className="logo"></img>
-          </a>
+          </a> */}
           {/* <div className="sidebarCenter" onClick={this.onOpen}>
             <i className="fa fa-plug twitter" aria-hidden="true"></i>
           </div> */}
