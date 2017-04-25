@@ -512,6 +512,12 @@ module.exports =
         "content": "Untitled Unmastered (stylized as untitled unmastered.) is a compilation album by American hip hop recording artist Kendrick Lamar. It was released on March 4, 2016, by Top Dawg Entertainment, Aftermath Entertainment and Interscope Records. It consists of previously unreleased demos that originated during the recording of Lamar's album To Pimp a Butterfly (2015), continuing that work's exploration of politically-charged and psychological themes, as well as its experimentation with free jazz, soul, avant-garde, and funk styles. Upon its release, the compilation album received acclaim from music critics, and it debuted atop the US Billboard 200.",
         "date": "03/04/2016"
       },
+      {
+        "type": "Album",
+        "title": "Damn",
+        "content": "Damn (stylized as DAMN.) is the fourth studio album by American rapper Kendrick Lamar. It was released on April 14, 2017, by Top Dawg Entertainment, Aftermath Entertainment and Interscope Records. The album features production from a variety of record producers, including executive producer from the Top Dawg Entertainment label-head Anthony \"Top Dawg\" Tiffith, Sounwave, DJ Dahi, Mike Will Made It and Ricci Riera; as well as production contributions from James Blake, Steve Lacy, BadBadNotGood, Greg Kurstin, The Alchemist and 9th Wonder, among others. Damn debuted at number one on the Billboard 200 with 603,000 album-equivalent units accumulated in its first week of release, with 353,000 coming from pure sales, earning Kendrick Lamar his third consecutive number one album in the United States. The album's lead single, \"Humble\" was released on March 30, 2017. It reached number one on the US Billboard Hot 100 and number two on the Canadian Hot 100 charts.",
+        "date": "04/14/2017"
+      },
     ]
   },
   { "id": 8,
