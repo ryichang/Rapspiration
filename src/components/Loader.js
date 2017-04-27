@@ -26,7 +26,7 @@ class Loader extends Component {
     const refreshIntervalId = setInterval(function() {
       const newCharacter = that.randomCharacter()
       that.setState({character: newCharacter})
-    }, 100)
+    }, 50)
 
     setTimeout(() => {
       clearInterval(refreshIntervalId);

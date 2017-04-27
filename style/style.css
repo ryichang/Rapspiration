@@ -209,23 +209,21 @@ transform: scale(1);*/
     #F9BEBD,
 		rgba(245,245,245,1)
 	);
-  width: 100px;
-  height: 100px;
-  border-radius: 180px;
-  /*padding-top: 60px;
-  padding-right: 50px;
-  padding-left: 50px;*/
-  margin-left: 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
   overflow: hidden;
   position: absolute;
-  /*left: 700px;
-  top: 230px;*/
+
+  right: 10px;
+  bottom: 0px;
+  /*top: 230px;*/
   /*top: 40px;
   left: 20px;*/
   border-color: rgba(255,255,255,1);
-  border: 5px solid #330 !important;
+  border: 3px solid #fff !important;
   /*border: 3px solid #330 !important;*/
-  animation: zoomInLeft 1.2s, fadeIn 2s;
+  animation: fadeIn 2s;
 }
 
 .polaroid {
@@ -471,10 +469,10 @@ h4 {
   color: rgba(195,217,224,1) !important;
   /*color: #FFF !important;*/
   padding: 5px;
-  font-size: 280px !important;
+  font-size: 220px !important;
 }
 .fa-twitter:hover {
-  font-size: 300px !important;
+  font-size: 220px !important;
   animation: rubberDisco 1s infinite;
   cursor: pointer;
 }
@@ -708,7 +706,7 @@ color = [255/2,255/2,255/2];*/
 
 .gutter-lyric {
     top: 180px;
-    left: 360px;
+    left: 200px;
     line-height: 40px;
     /*top: 200px;
     left: -90px;*/

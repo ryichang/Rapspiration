@@ -101,7 +101,7 @@ class RapTimeline extends Component {
 				</div>
 				{/* </div>
 				<div className="col-md-2"></div> */}
-				<div className="col-md-1 col-sm-12">
+				{/* <div className="col-md-1 col-sm-12">
 					 <div onClick={this.onClick}>
 						 <div className="img-polaroid">
 							 <div className="rapImage">
@@ -111,9 +111,9 @@ class RapTimeline extends Component {
 				       </div>
 						 </div>
 					 </div>
-				</div>
+				</div> */}
 
-				<div className="col-md-5 col-sm-12 RapTimelineContent">
+				<div className="col-md-6 col-sm-12 RapTimelineContent">
 					<SwipeableViews
 						index={0}
 						onChangeIndex={(value, previous) => {
@@ -134,6 +134,7 @@ class RapTimeline extends Component {
 					</div>
 				</div>
 			</div>
+
 
 		);
 			// albums.map((album, index) => {

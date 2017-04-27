@@ -7,6 +7,7 @@ import RapArtist from './RapArtist';
 import RapLyric from './RapLyric';
 import RapTimeline from './RapTimeline';
 import Loader from './Loader';
+import Header from './Header';
 
 
 
@@ -131,9 +132,9 @@ class RapDetail extends Component {
                 timeline={currentTimeline}
                 artist={currentArtist.artist}
                 key={currentArtist.id}
-                image={currentArtist.image}
+                // image={currentArtist.image}
               />
-          <div className="col-md-2">
+          {/* <div className="col-md-1"> */}
             {/* <div className="col-md-4 col-sm-12">
                <div onClick={this.onClick}>
                  <div className="img-polaroid">
@@ -141,7 +142,7 @@ class RapDetail extends Component {
                  </div>
                </div>
             </div> */}
-          </div>
+          {/* </div> */}
           <div className="leader-section text-right">
             {/* <span className="blocking">
               East<br/>Room
@@ -151,7 +152,7 @@ class RapDetail extends Component {
                     songName={currentLyric.songName}
                     artist={currentArtist.artist}
                     key={currentLyric.id}
-                    image={currentArtist.image}
+                    // image={currentArtist.image}
                   />
               {/* </div>
             </span> */}
@@ -159,8 +160,10 @@ class RapDetail extends Component {
                     <p>We are a membership<br/>based co–op<br/>connecting work,<br/>leisure &amp; culture</p>
                 </div> */}
           </div>
-
         </div>
+        <Header
+          image={currentArtist.image}
+        />
       </div>
     //   <div className="frame">
     //     <div className="gutter-copy">NYC - SF</div>
