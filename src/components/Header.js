@@ -48,8 +48,8 @@ class Header extends Component {
                 <h4>Created by @RxNeu</h4>
                 </div>
                 <div className="nav-contain">
-                  {/* <a href="https://www.facebook.com/rapsmatter/" target="_blank"><div className="fa fa-facebook btn btn-round"></div></a>
-                  <a href="https://www.instagram.com/boytoy/"  target="_blank"><div className="fa fa-instagram btn btn-round"></div></a> */}
+                  <a href="https://www.facebook.com/rapsmatter/" target="_blank"><div className="fa fa-facebook btn btn-round"></div></a>
+                  <a href="https://www.instagram.com/boytoy/"  target="_blank"><div className="fa fa-instagram btn btn-round"></div></a>
                 </div>
                 {/* <img src={"../img/LogoGrey.png"} className="modalLogo"></img> */}
                 {/* <Button onClick={this.onClose}>Close</Button> */}
