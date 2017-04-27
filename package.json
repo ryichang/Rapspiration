@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
   "scripts": {
-    "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "postinstall": "webpack -p",
     "start": "node server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
@@ -44,8 +44,6 @@
     "react-router": "^2.0.1",
     "react-swipeable-views": "^0.8.0",
     "redux": "^3.0.4",
-    "redux-thunk": "^2.1.0",
-    "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14.0"
+    "redux-thunk": "^2.1.0"
   }
 }
