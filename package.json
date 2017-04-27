@@ -44,8 +44,6 @@
     "react-router": "^2.0.1",
     "react-swipeable-views": "^0.8.0",
     "redux": "^3.0.4",
-    "redux-thunk": "^2.1.0",
-    "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14.0"
+    "redux-thunk": "^2.1.0"
   }
 }
