@@ -7,8 +7,11 @@ module.exports = {
     publicPath: '/',
     filename: 'bundle.js'
   },
+  debug: true,
+  devtools: "eval-source-map",
   module: {
     loaders: [{
+      test: /\.jsx?$/,
       exclude: /node_modules/,
       loader: 'babel',
       query: {
