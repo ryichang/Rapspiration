@@ -1,3 +1,5 @@
+var webpack = require('webpack');
+
 module.exports = {
   entry: [
     './src/index.js'
@@ -7,11 +9,8 @@ module.exports = {
     publicPath: '/',
     filename: 'bundle.js'
   },
-  debug: true,
-  devtools: "eval-source-map",
   module: {
     loaders: [{
-      test: /\.jsx?$/,
       exclude: /node_modules/,
       loader: 'babel',
       query: {
@@ -25,5 +24,8 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     contentBase: './'
-  }
+  },
+  plugins = [
+       new webpack.EnvironmentPlugin(['NODE_ENV'])
+   ]
 };
