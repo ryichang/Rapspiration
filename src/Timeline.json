@@ -127,6 +127,13 @@ module.exports = [
         "content":
           "Watch the Throne is a collaborative studio album by American rappers Jay-Z and Kanye West, released on August 8, 2011, by Roc-A-Fella Records, Roc Nation, and Def Jam Recordings. Before the album, Jay-Z and West had collaborated on their respective singles and with West as a producer on Jay-Z's work. As longtime friends, they originally sought out to record a five-song EP together, but the project eventually evolved into a full-length album. Recording sessions took place at various locations and began in November 2010. Production on the album was led by West himself, alongside a variety of high-profile record producers including Mike Dean, Swizz Beatz, Sak Pase, Jeff Bhasker, The Neptunes and Q-Tip.",
         "date": "08/08/2011"
+      },
+      {
+        "type": "Album",
+        "title": "Ye",
+        "content":
+          "Ye (/jeɪ/; stylized as ye) is the eighth studio album by American rapper Kanye West. It was released on June 1, 2018, by GOOD Music and Def Jam Recordings.[6] Following controversy surrounding his sociopolitical views, West re-wrote and recorded all the work on the album, completing it over the course of just two weeks at his ranch in Jackson Hole, Wyoming. The album features guest vocals by PartyNextDoor, Ty Dolla Sign, Kid Cudi, Jeremih and 070 Shake, among others. West produced the album in its entirety, with additional production by Mike Dean, who serves as a co-executive producer, as well as Francis and the Lights, Benny Blanco, Irv Gotti, 7 Aurelius, Noah Goldstein, Che Pope, Caroline Shaw, Pi'erre Bourne and Ty Dolla Sign, among others. Ye is the second of five seven-track albums produced by West in what have been referred to as the \"Wyoming Sessions\",and set to be released weekly following the release of Pusha T's Daytona. The album preceded the release of West's collaboration with Kid Cudi titled Kids See Ghosts, Nas' Nasir, and Teyana Taylor's K.T.S.E.. The album was supported by the lead single \"Yikes\". Despite being released to lukewarm critical reception, Ye became West's record-equalling eighth consecutive album to debut at number one on the US Billboard 200. Upon its release, every song on the album managed to enter the top forty on the Billboard Hot 100, with the lead single \"Yikes\" reaching number 8.",
+        "date": "06/01/2018"
       }
     ]
   },
@@ -320,13 +327,6 @@ module.exports = [
         "content":
           "More Life (stylized as More Life: A Playlist By October Firm on the cover) is a musical project by Canadian rapper Drake, described by the artist as a playlist. It was released on March 18, 2017, by OVO Sound, Young Money Entertainment, Cash Money Records, and Republic Records. The playlist was supported by three singles: \"Fake Love\", \"Passionfruit\" and \"Free Smoke\". Production of More Life was handled by a variety of record producers, including 40, Frank Dukes, Boi-1da, Murda Beatz, T-Minus, Nineteen85, and Kanye West, among others. An ensemble of guest vocalists also appear, including Young Thug, Giggs, Skepta, Quavo, Travis Scott, 2 Chainz, Kanye West, Jorja Smith, Sampha and PartyNextDoor. The songs on More Life feature a broad range of genres, including hip hop, R&B, dancehall, grime, trap, Afrobeat, and pop. The playlist received widespread critical acclaim and debuted at number one on the Billboard 200, becoming his seventh consecutive number one album, while also breaking several streaming records.",
         "date": "03/18/2017"
-      },
-      {
-        "type": "Album",
-        "title": "Scorpion",
-        "content":
-          "Scorpion is the fifth studio album by Canadian rapper Drake. It was released on June 29, 2018 by Young Money Entertainment, Cash Money Records and Republic Records. Scorpion is a double album consisting of 25 tracks. Its \"A side\" is primarily a hip hop album, whilst its \"B side\" has been described as R&B and pop. The album features guest appearances from Jay-Z and Ty Dolla Sign as well as posthumous appearances from Michael Jackson and Static Major, and additional vocals by a variety of artists, including James Fauntleroy, PartyNextDoor, Nicki Minaj, Future, Lil Wayne,and Nai Palm. The album is executively produced by Drake himself, alongside frequent collaborator Noah \"40\" Shebib and manager Oliver El-Khatib, and features production from 40, alongside a variety of producers, including No I.D., Boi-1da, DJ Premier, DJ Paul, T-Minus, Murda Beatz, Cardo and Noel Cadastre, among others. It was supported by the singles \"God's Plan\", \"Nice for What\", \"I'm Upset\", \"Don't Matter to Me\", \"In My Feelings\" and \"Nonstop\". All six singles reached the top ten on the US Billboard Hot 100; three of them (\"God's Plan\", \"Nice for What\" and \"In My Feelings\") reached number one. On the July 14, 2018 Billboard Hot 100 chart, all 25 songs were listed, beating the record of 22 entries by his previous release More Life.",
-        "date": "06/29/2018"
       }
     ]
   },
