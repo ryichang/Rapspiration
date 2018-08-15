@@ -53,7 +53,24 @@ class Header extends Component {
               </Modal.Body>
               <Modal.Footer>
                 <div className="modal-credit">
-                  <h4>Created by @BoyReads Instagram @Boytoy</h4>
+                  <h4>
+                    Created by Twitter{" "}
+                    <a
+                      className="hoverlink"
+                      href="https://twitter.com/boyreads"
+                      target="_blank"
+                    >
+                      @BoyReads
+                    </a>{" "}
+                    Instagram{" "}
+                    <a
+                      className="hoverlink"
+                      href="https://www.instagram.com/boytoy/"
+                      target="_blank"
+                    >
+                      @Boytoy
+                    </a>
+                  </h4>
                 </div>
                 <div className="nav-contain">
                   {/* <a href="https://www.facebook.com/rapsmatter/" target="_blank"><div className="fa fa-facebook btn btn-round"></div></a>

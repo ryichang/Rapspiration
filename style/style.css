@@ -259,6 +259,32 @@ transform: scale(1);*/
   box-shadow: inset 0px 1px 5px -2px rgba(0,0,0,0.75);
 }
 
+.a{
+  color: rgba(255,255,255,1)
+}
+
+
+.hoverlink{
+  color: rgba(255,255,255,1) !important;
+  text-decoration:none !important;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.hoverlink:after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 0;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+
+.hoverlink:hover:after {
+  width: 100%;
+  background: rgba(255,255,255,1);
+}
+
 .rapImage {
   animation: float 3s infinite;
   image-rendering: auto;
@@ -308,6 +334,7 @@ transform: scale(1);*/
   /*font-family: 'Covered By Your Grace', cursive;*/
   float: right !important;
   position: absolute !important;
+  /*top: -10% !important;*/
   top: -60px !important;
   right: 0px !important;
   color: rgba(254,57,85,1);
@@ -859,22 +886,22 @@ color = [255/2,255/2,255/2];*/
 
 
 a {
-    color: #000 !important;
+    color: #F9BEBD !important;
     text-decoration: none !important;
 }
 
 a:hover {
-  color: #000 !important;
+  color: #F9BEBD !important;
   text-decoration: none !important;
 }
 
 a:focus {
-  color: #000 !important;
+  color: #F9BEBD !important;
   text-decoration: none !important;
 }
 
 a:visited {
-  color: #000 !important;
+  color: #F9BEBD !important;
   text-decoration: none !important;
 }
 

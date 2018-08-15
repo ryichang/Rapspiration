@@ -37,7 +37,7 @@
     "lodash": "^3.10.1",
     "react": "^0.14.3",
     "react-addons-css-transition-group": "^15.3.2",
-    "react-bootstrap": "^0.28.1",
+    "react-bootstrap": "^0.28.5",
     "react-dom": "^0.14.3",
     "react-horizontal-timeline": "^1.1.1",
     "react-motion": "^0.4.5",
