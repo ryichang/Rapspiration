@@ -260,12 +260,35 @@ transform: scale(1);*/
 }
 
 .a{
-  color: rgba(255,255,255,1)
+  /*color: rgba(255,255,255,1)*/
+  color: #F9BEBD;
+}
+
+a {
+    color: #F9BEBD !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+  color: #F9BEBD !important;
+  text-decoration: none !important;
+}
+
+a:focus {
+  color: #F9BEBD !important;
+  text-decoration: none !important;
+}
+
+a:visited {
+  color: #F9BEBD !important;
+  text-decoration: none !important;
 }
 
 
+
 .hoverlink{
-  color: rgba(255,255,255,1) !important;
+  color: #F9BEBD !important;
+  /*color: rgba(255,255,255,1) !important;*/
   text-decoration:none !important;
   display: inline-block;
   text-decoration: none;
@@ -334,8 +357,8 @@ transform: scale(1);*/
   /*font-family: 'Covered By Your Grace', cursive;*/
   float: right !important;
   position: absolute !important;
-  /*top: -10% !important;*/
-  top: -60px !important;
+  top: -10% !important;
+  /*top: -60px !important;*/
   right: 0px !important;
   color: rgba(254,57,85,1);
   cursor: pointer;
@@ -387,14 +410,15 @@ transform: translateY(20%);
 
 .quoteContainer{
   max-height: 200px;
-  min-heigh: 200px;
+  min-height: 200px;
 }
 
 .quote:before {
   font-family: Oswald;
   display: block;
   content: "\201C";
-  font-size: 200px;
+  font-size: calc(.8em + 2vmin) !important;
+  /*font-size: 200px;*/
   position: absolute;;
   left: -120px;
   top: -50px;
@@ -429,7 +453,7 @@ transform: translateY(20%);
 }
 
 h1 {
-  font-size: calc(1em + 2vmin) !important;
+  font-size: calc(.9em + 2vmin) !important;
   /*font-size:calc(12px + 1.5vw) !important;*/
   /*font-size: 2vw !important;*/
   line-height: .8;
@@ -484,10 +508,12 @@ h4 {
 .twitter {
   color: #FFF !important;
   padding: 5px;
-  font-size: 25px !important;
+  font-size: calc(.9em + 2vmin) !important;
+  /*font-size: 25px !important;*/
 }
 .twitter:hover {
-  font-size: 25px !important;
+  font-size: calc(.9em + 2vmin) !important;
+  /*font-size: 25px !important;*/
   animation: rubberDisco 1s infinite;
   cursor: pointer;
 }
@@ -496,10 +522,12 @@ h4 {
   color: rgba(195,217,224,1) !important;
   /*color: #FFF !important;*/
   padding: 5px;
-  font-size: 220px !important;
+  font-size: calc(.9em + 2vmin) !important;
+  /*font-size: 220px !important;*/
 }
 .fa-twitter:hover {
-  font-size: 220px !important;
+  font-size: calc(.9em + 2vmin) !important;
+  /*font-size: 220px !important;*/
   animation: rubberDisco 1s infinite;
   cursor: pointer;
 }
@@ -883,28 +911,6 @@ color = [255/2,255/2,255/2];*/
     transition: all 150ms ease;
     border: 3px solid #330 !important;
 }
-
-
-a {
-    color: #F9BEBD !important;
-    text-decoration: none !important;
-}
-
-a:hover {
-  color: #F9BEBD !important;
-  text-decoration: none !important;
-}
-
-a:focus {
-  color: #F9BEBD !important;
-  text-decoration: none !important;
-}
-
-a:visited {
-  color: #F9BEBD !important;
-  text-decoration: none !important;
-}
-
 
 @media screen and (min-width: 48rem)
 .nav-contain {
