@@ -351,15 +351,15 @@ a:visited {
 .rapArtist {
   /*padding-top: 10px;
   padding-bottom: 5px;*/
-  /*font-family: 'TinyHand';*/
+  font-family: 'TinyHand';
   /*color: #fff;*/
     /*font-family: 'Rubik', sans-serif;*/
   /*font-family: 'Covered By Your Grace', cursive;*/
   float: right !important;
   position: absolute !important;
-  top: -10% !important;
+  top: 0% !important;
   /*top: -60px !important;*/
-  right: 0px !important;
+  right: 5% !important;
   color: rgba(254,57,85,1);
   cursor: pointer;
 }
@@ -453,7 +453,7 @@ transform: translateY(20%);
 }
 
 h1 {
-  font-size: calc(.9em + 2vmin) !important;
+  font-size: calc(.55em + 2vmin) !important;
   /*font-size:calc(12px + 1.5vw) !important;*/
   /*font-size: 2vw !important;*/
   line-height: .8;
@@ -965,7 +965,7 @@ color = [255/2,255/2,255/2];*/
 }
 
 .leader-box .leader-section:first-child {
-    padding-bottom: 12vmin;
+    padding-bottom: 5vmin;
 }
 
 .leader-box .leader-section.leader-underlined {
